@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AverageLap" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="BestLap" xml:space="preserve">
+    <value>Best.</value>
+  </data>
+  <data name="Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Brake" xml:space="preserve">
+    <value>Brake</value>
+  </data>
+  <data name="BrakeAndZeorGaz" xml:space="preserve">
+    <value>Brake + 0 gaz</value>
+  </data>
+  <data name="CarHealth" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="Cars" xml:space="preserve">
+    <value>Cars</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="DamagesRandom" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="DamagesRandomAndTC" xml:space="preserve">
+    <value>Random and Track Call</value>
+  </data>
+  <data name="DefaultTrack" xml:space="preserve">
+    <value>Default Track</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="Disqualified" xml:space="preserve">
+    <value>Retired</value>
+  </data>
+  <data name="Disqualify" xml:space="preserve">
+    <value>Disquafied</value>
+  </data>
+  <data name="DoNothing" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="EndLapWithPenalityPower" xml:space="preserve">
+    <value>End lap slowly</value>
+  </data>
+  <data name="EndOfRelay" xml:space="preserve">
+    <value>End relay</value>
+  </data>
+  <data name="EndOfRelayPenality" xml:space="preserve">
+    <value>End relay - penality</value>
+  </data>
+  <data name="EndRaceType_AllFinish" xml:space="preserve">
+    <value>Everybody</value>
+  </data>
+  <data name="EndRaceType_FirstFinish" xml:space="preserve">
+    <value>Immediate end</value>
+  </data>
+  <data name="EndRaceType_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Endurance" xml:space="preserve">
+    <value>ENDURANCE</value>
+  </data>
+  <data name="EnduranceSubTitle" xml:space="preserve">
+    <value>Endurance race with time limit</value>
+  </data>
+  <data name="FirstLap" xml:space="preserve">
+    <value>First Lap</value>
+  </data>
+  <data name="Frequent" xml:space="preserve">
+    <value>Frequent</value>
+  </data>
+  <data name="FuelShort" xml:space="preserve">
+    <value>Fuel</value>
+  </data>
+  <data name="GrandPrix" xml:space="preserve">
+    <value>GRAND PRIX</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>hour(s)</value>
+  </data>
+  <data name="Incident" xml:space="preserve">
+    <value>Incident</value>
+  </data>
+  <data name="Lap" xml:space="preserve">
+    <value>Lap</value>
+  </data>
+  <data name="LapRecord" xml:space="preserve">
+    <value>Rec.</value>
+  </data>
+  <data name="Laps" xml:space="preserve">
+    <value>Laps</value>
+  </data>
+  <data name="LastLap" xml:space="preserve">
+    <value>LAST</value>
+  </data>
+  <data name="LC" xml:space="preserve">
+    <value>Lane ch.</value>
+  </data>
+  <data name="LCAndBrake" xml:space="preserve">
+    <value>Lane ch. +brake</value>
+  </data>
+  <data name="LCAndBrakeAndZGaz" xml:space="preserve">
+    <value>Lane ch. +brake +0 Gaz</value>
+  </data>
+  <data name="MaxLaps" xml:space="preserve">
+    <value>laps</value>
+  </data>
+  <data name="MaxTeams" xml:space="preserve">
+    <value>teams</value>
+  </data>
+  <data name="MessageConfirmDeleteCar" xml:space="preserve">
+    <value>You are about to delete the vehicle {0}. Continue ?</value>
+  </data>
+  <data name="MessageConfirmProgCarId" xml:space="preserve">
+    <value>Do you confirm the programming of the ID to this Car. Only one car has to be on track.</value>
+  </data>
+  <data name="MessConfirmStopRace" xml:space="preserve">
+    <value>Confirm stop race ?</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Moyen" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NewPilote" xml:space="preserve">
+    <value>Create new driver</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Pilot" xml:space="preserve">
+    <value>Pilot</value>
+  </data>
+  <data name="Pilots" xml:space="preserve">
+    <value>Pilots</value>
+  </data>
+  <data name="Practice" xml:space="preserve">
+    <value>PRACTICE</value>
+  </data>
+  <data name="Race" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="RaceFinished" xml:space="preserve">
+    <value>Race finished !</value>
+  </data>
+  <data name="RaceParams" xml:space="preserve">
+    <value>Race params</value>
+  </data>
+  <data name="Races" xml:space="preserve">
+    <value>Races</value>
+  </data>
+  <data name="Rare" xml:space="preserve">
+    <value>Rare</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectPilot" xml:space="preserve">
+    <value>Select existing pilot</value>
+  </data>
+  <data name="SoloSubTitle" xml:space="preserve">
+    <value>Time attack race</value>
+  </data>
+  <data name="TeamFinished" xml:space="preserve">
+    <value>Finish !</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Teams</value>
+  </data>
+  <data name="Throttle" xml:space="preserve">
+    <value>Throttle</value>
+  </data>
+  <data name="TimeAttack" xml:space="preserve">
+    <value>TIME ATTACK</value>
+  </data>
+  <data name="TimeLimit" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="Tires" xml:space="preserve">
+    <value>Tires</value>
+  </data>
+  <data name="Tournament" xml:space="preserve">
+    <value>TOURNAMENT</value>
+  </data>
+  <data name="TrackCall" xml:space="preserve">
+    <value>TrackCall</value>
+  </data>
+  <data name="Tracks" xml:space="preserve">
+    <value>Tracks</value>
+  </data>
+  <data name="TresFrequent" xml:space="preserve">
+    <value>Very frequent</value>
+  </data>
+  <data name="TresRare" xml:space="preserve">
+    <value>Very rare</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Trial Version :</value>
+  </data>
+  <data name="WaitForPitStop" xml:space="preserve">
+    <value>Wait PitStop</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Message_NoPB" xml:space="preserve">
+    <value>Unable to find your SSD powerbase. Use the configuration page to connect it.</value>
+  </data>
+  <data name="Acceleration" xml:space="preserve">
+    <value>Acceleration</value>
+  </data>
+  <data name="DamagesTrackCall" xml:space="preserve">
+    <value>On Track Call</value>
+  </data>
+  <data name="PitStopChangeTires" xml:space="preserve">
+    <value>Tires ?</value>
+  </data>
+  <data name="PitStopEnd" xml:space="preserve">
+    <value>Pit out ?</value>
+  </data>
+  <data name="PitStopSelectPilot" xml:space="preserve">
+    <value>Pilot ?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm ?</value>
+  </data>
+  <data name="DynamicBrake" xml:space="preserve">
+    <value>Dynamic brake</value>
+  </data>
+  <data name="MaxPower" xml:space="preserve">
+    <value>Max Power</value>
+  </data>
+  <data name="SoftBrake" xml:space="preserve">
+    <value>Brake limitation</value>
+  </data>
+  <data name="TiresConsigne_Acceleration" xml:space="preserve">
+    <value>The value to be entered makes it possible to limit the acceleration capacity. For comparison a value of 20 corresponds to a maximum acceleration.</value>
+  </data>
+  <data name="TiresConsigne_BrakeDelai" xml:space="preserve">
+    <value>The value to be entered makes it possible to add a delay in milliseconds before braking.</value>
+  </data>
+  <data name="TiresConsigne_Wear" xml:space="preserve">
+    <value>The value to be entered is used to specify the percentage of wear compared to normal wear</value>
+  </data>
+  <data name="PrepareToRace" xml:space="preserve">
+    <value>PitStop </value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="MessageCantStartRace" xml:space="preserve">
+    <value>Unable to start race until all drivers have completed their choice of tires and / or driver</value>
+  </data>
+  <data name="BeforeStartRaceConsign1" xml:space="preserve">
+    <value>All teams are in pits to select the type of tires and / or the driver.</value>
+  </data>
+  <data name="BeforeStartRaceConsign2" xml:space="preserve">
+    <value>Press the "Brake" button to change the action to be executed, press the "Lane Change" button to validate an action.</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="TiresConfig" xml:space="preserve">
+    <value>Tires configuration</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="GreenFlag" xml:space="preserve">
+    <value>Green Flag</value>
+  </data>
+  <data name="YellowFlag" xml:space="preserve">
+    <value>Yellow Flag</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="MessageConfirmDelete" xml:space="preserve">
+    <value>Confirm delete?</value>
+  </data>
+  <data name="MessageLinearize" xml:space="preserve">
+    <value>Do you want to linearize curve between {0} and {1} ?</value>
+  </data>
+  <data name="Refuel" xml:space="preserve">
+    <value>Refuel</value>
+  </data>
+  <data name="Repair" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Fuel burn</value>
+  </data>
+  <data name="Resistance" xml:space="preserve">
+    <value>Strength</value>
+  </data>
+  <data name="Mandatory" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="UsedFuel" xml:space="preserve">
+    <value>Fuel used :</value>
+  </data>
+  <data name="UsedHealth" xml:space="preserve">
+    <value>Repair :</value>
+  </data>
+  <data name="UsedTires" xml:space="preserve">
+    <value>Tires set :</value>
+  </data>
+  <data name="ChangeBrakeCurve" xml:space="preserve">
+    <value>Brake curve</value>
+  </data>
+  <data name="ChangeThCurve" xml:space="preserve">
+    <value>Th. curve</value>
+  </data>
+  <data name="TriggerVibrations" xml:space="preserve">
+    <value>Impulse triggers</value>
+  </data>
+  <data name="Vibrations" xml:space="preserve">
+    <value>Rumbles</value>
+  </data>
+  <data name="Mess_PressStartOnTeamGamePad" xml:space="preserve">
+    <value>Press start button on team gamepad </value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PitPro" xml:space="preserve">
+    <value>PitPro</value>
+  </data>
+  <data name="SmartSensor" xml:space="preserve">
+    <value>SmartSensor</value>
+  </data>
+  <data name="RallyCross" xml:space="preserve">
+    <value>RallyCross</value>
+  </data>
+</root>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8A08827-078A-4416-8EE0-AB984611CEB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESRM.Entities</RootNamespace>
+    <AssemblyName>ESRM.Entities2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Portable.Licensing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.Licensing.1.1.0\lib\portable-net40+sl4+wp7+win8\Portable.Licensing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomEventArgs.cs" />
+    <Compile Include="DefaultDatas.cs" />
+    <Compile Include="Dto\Converter\TeamDtoConverter.cs" />
+    <Compile Include="Dto\RaceSettingsDto.cs" />
+    <Compile Include="Dto\TeamDto.cs" />
+    <Compile Include="Dto\TeamRaceDatasDto.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ESRMLicence.cs" />
+    <Compile Include="GlobalDatas.cs" />
+    <Compile Include="Hardware\IHandSet.cs" />
+    <Compile Include="Hardware\IHandsetList.cs" />
+    <Compile Include="Hardware\IHardwareInterface.cs" />
+    <Compile Include="Hardware\ITimerForHandSet.cs" />
+    <Compile Include="Hardware\ThrottleCurve.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Race entities\Car.cs" />
+    <Compile Include="Race entities\Championship.cs" />
+    <Compile Include="Race entities\HandSetThrottleInfo.cs" />
+    <Compile Include="Race entities\IBaseThrottleCurve.cs" />
+    <Compile Include="Race entities\Lap.cs" />
+    <Compile Include="Race entities\Pacer.cs" />
+    <Compile Include="Race entities\Pilot.cs" />
+    <Compile Include="Race entities\Statistics\PilotStatistics.cs" />
+    <Compile Include="Race entities\RaceParameters.cs" />
+    <Compile Include="Race entities\Record.cs" />
+    <Compile Include="Race entities\Statistics\TeamLap.cs" />
+    <Compile Include="Race entities\Team.cs" />
+    <Compile Include="Race entities\TeamInRace.cs" />
+    <Compile Include="Race entities\Statistics\TeamStatistics.cs" />
+    <Compile Include="Race entities\Tires.cs" />
+    <Compile Include="Race entities\TiresParams.cs" />
+    <Compile Include="Race entities\Track.cs" />
+    <Compile Include="Race Types\RallyCrossRace.cs" />
+    <Compile Include="Race Types\EnduranceRace.cs" />
+    <Compile Include="Race Types\GPRace.cs" />
+    <Compile Include="Race Types\PracticeRace.cs" />
+    <Compile Include="Race Types\Qualification.cs" />
+    <Compile Include="Race Types\Race.cs" />
+    <Compile Include="Race Types\TimeAttackRace.cs" />
+    <Compile Include="Settings\DigitalParamsBase.cs" />
+    <Compile Include="Settings\IDigitalParamsBase.cs" />
+    <Compile Include="Settings\SoundSettings.cs" />
+    <Compile Include="Textes.Designer.cs">
+      <DependentUpon>Textes.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Textes.en-US.Designer.cs">
+      <DependentUpon>Textes.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Tools.cs" />
+    <Compile Include="ViewsModels\ESRMViewModelBase.cs" />
+    <Compile Include="ViewsModels\IESRMViewModel.cs" />
+    <Compile Include="Weather\Weather.cs" />
+    <Compile Include="Weather\WeatherConditions.cs" />
+    <Compile Include="Weather\WeatherConditionsConstants.cs" />
+    <Compile Include="Weather\WeatherParams.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EntitiesClassDiagram.cd" />
+    <None Include="packages.config" />
+    <None Include="ViewsModels\ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Textes.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Textes.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Textes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Textes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

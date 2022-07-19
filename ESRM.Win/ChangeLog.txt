@@ -1,0 +1,79 @@
+﻿*****************************
+*****   Version 3.0     *****
+*****************************
+
+Hardware :
+----------
+-	Use of new Windows API for Gamepads management (windows 10 only)
+o	6 gamepads
+o	Impulse triggers 
+o	Dedicated rumbles for adhession loss (acceleration and brake).
+o	Dedicated rumbles for Big acceleration and strong brake (setting for disabled in configuration-advanced).
+-	CPU Usage improvment
+
+
+-	InCarPro implementation
+o	Progressive braking with GamePad Use
+o	Swith ON/Off lights with Gamepads (LS / RS)
+o	Dedicated brake curves for InCarPro
+ 
+
+LeaderBoard :
+-------------
+-	Added Throttle and Brake curves (display for each driver)
+-	Capabilities to change curves when pit stop (select curve in driver favorites curves)
+-	Show / hide progress bar depend on race params
+-	New End race page with higher display
+
+
+Race Management / features :
+----------------------------
+•	Capabilities to add drivers and cars to database from race settings page
+•	Refuel speed setting 
+•	repair speed setting 
+•	Rolling Start with lap count setting
+•	Percentage of maximum repair per race 
+•	Fuel and Tires consumption every x seconds (actually 3 seconds)
+•	Mandatory pit stops 
+•	New Stats -> Fuel and tires charts
+•	Throttlle and brake curves : Modify Curve with Left Thumbstisk of gamepad or with new buttons in window
+•	Add color property on Car, if car is selected for a team, car color is affected to team
+•	Time limit page : added + and – button to adjust time
+•	Sound Setup Page  
+•	Select sound path
+•	Enable or disable sound type
+
+Monitoring Panel :
+------------------
+-	InCarPro Setting enable or disable (need to click on reaffect gamepad after modification)
+-	Vibrations Level (normal and triggers) settings
+-	GamePad Id by driver
+-	« Show More » button to advanced settings
+
+
+*********************************************************************************************************
+
+
+Version 2.1.0.0
+
+- Evolution : Smart Sensors for pit stops and StartLight
+- Evolution : Possibilties to use PC GamePads to drive your cars ! (Set in Team Parameters Page, button "Use Game Pad" set the index of the gamepad associated)
+- several bug fixes
+
+- Evolution : Monitoring screen : Possibility of fixing the target lap for pacers
+- Evolution : Add Lap by lap statistics for each drivers of each teams (Statistics page)
+- Bug fix : Laps Records were not recorded correctly
+
+Version 2.0.0.6
+
+- Bug fix : Error at startup if no connexion found, possible black screen.
+- Bug fix : Dynamic fonts load
+- Bug fix : Race Parameters page size, Configuration page size (Tires parameters)
+
+Version 2.0.0.5
+
+- Bug fix : sound for best lap was no longer played after a certain number of laps
+
+Version 2.0.0.4
+
+- Evolution : color for progress bar (fuel, tires, health) are painted in team color

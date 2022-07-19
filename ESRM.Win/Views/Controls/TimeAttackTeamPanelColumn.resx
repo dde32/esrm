@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelTeamHeader.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>100, 60, 60, 60</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelTeamHeader.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelTeam.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblTeam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTeam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold, Italic</value>
+  </data>
+  <data name="lblTeam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblTeam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 87</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTeam.Text" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="lblTeam.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Name" xml:space="preserve">
+    <value>lblTeam</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Parent" xml:space="preserve">
+    <value>panelName</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 87</value>
+  </data>
+  <data name="panelName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelName.Name" xml:space="preserve">
+    <value>panelName</value>
+  </data>
+  <data name="&gt;&gt;panelName.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelName.Parent" xml:space="preserve">
+    <value>panelTeam</value>
+  </data>
+  <data name="&gt;&gt;panelName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTeam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 0</value>
+  </data>
+  <data name="panelTeam.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 87</value>
+  </data>
+  <data name="panelTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panelTeam.Name" xml:space="preserve">
+    <value>panelTeam</value>
+  </data>
+  <data name="&gt;&gt;panelTeam.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTeam.Parent" xml:space="preserve">
+    <value>panelTeamHeader</value>
+  </data>
+  <data name="&gt;&gt;panelTeam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLaneId.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblLaneId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Italic</value>
+  </data>
+  <data name="lblLaneId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 0</value>
+  </data>
+  <data name="lblLaneId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblLaneId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 87</value>
+  </data>
+  <data name="lblLaneId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblLaneId.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLaneId.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblLaneId.Name" xml:space="preserve">
+    <value>lblLaneId</value>
+  </data>
+  <data name="&gt;&gt;lblLaneId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaneId.Parent" xml:space="preserve">
+    <value>panelTeamHeader</value>
+  </data>
+  <data name="&gt;&gt;lblLaneId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelTeamColor.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="panelTeamColor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelTeamColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelTeamColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelTeamColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 87</value>
+  </data>
+  <data name="panelTeamColor.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panelTeamColor.Name" xml:space="preserve">
+    <value>panelTeamColor</value>
+  </data>
+  <data name="&gt;&gt;panelTeamColor.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTeamColor.Parent" xml:space="preserve">
+    <value>panelTeamHeader</value>
+  </data>
+  <data name="&gt;&gt;panelTeamColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelTeamHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTeamHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelTeamHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelTeamHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 87</value>
+  </data>
+  <data name="panelTeamHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelTeamHeader.Name" xml:space="preserve">
+    <value>panelTeamHeader</value>
+  </data>
+  <data name="&gt;&gt;panelTeamHeader.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTeamHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTeamHeader.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblGap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 13pt, style=Italic</value>
+  </data>
+  <data name="lblGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 5</value>
+  </data>
+  <data name="lblGap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 34</value>
+  </data>
+  <data name="lblGap.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblGap.Text" xml:space="preserve">
+    <value>Gap</value>
+  </data>
+  <data name="lblGap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblGap.Name" xml:space="preserve">
+    <value>lblGap</value>
+  </data>
+  <data name="&gt;&gt;lblGap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGap.Parent" xml:space="preserve">
+    <value>panelControlLapCount</value>
+  </data>
+  <data name="&gt;&gt;lblGap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLaps.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="lblLaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="lblLaps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblLaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 46</value>
+  </data>
+  <data name="lblLaps.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLaps.Text" xml:space="preserve">
+    <value>0001/100</value>
+  </data>
+  <data name="lblLaps.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLaps.Name" xml:space="preserve">
+    <value>lblLaps</value>
+  </data>
+  <data name="&gt;&gt;lblLaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaps.Parent" xml:space="preserve">
+    <value>panelControlLapCount</value>
+  </data>
+  <data name="&gt;&gt;lblLaps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbTeamImage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbTeamImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbTeamImage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pbTeamImage.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbTeamImage.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbTeamImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 183</value>
+  </data>
+  <data name="pbTeamImage.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pbTeamImage.Name" xml:space="preserve">
+    <value>pbTeamImage</value>
+  </data>
+  <data name="&gt;&gt;pbTeamImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbTeamImage.Parent" xml:space="preserve">
+    <value>panelControl_PilotImage</value>
+  </data>
+  <data name="&gt;&gt;pbTeamImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblBestLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblBestLap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="lblBestLap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBestLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblBestLap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblBestLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 48</value>
+  </data>
+  <data name="lblBestLap.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblBestLap.Text" xml:space="preserve">
+    <value>Best : -</value>
+  </data>
+  <data name="lblBestLap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblBestLap.Name" xml:space="preserve">
+    <value>lblBestLap</value>
+  </data>
+  <data name="&gt;&gt;lblBestLap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestLap.Parent" xml:space="preserve">
+    <value>panelControlBestLap</value>
+  </data>
+  <data name="&gt;&gt;lblBestLap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLastLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblLastLap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="lblLastLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblLastLap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblLastLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 42</value>
+  </data>
+  <data name="lblLastLap.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLastLap.Text" xml:space="preserve">
+    <value>Last : -</value>
+  </data>
+  <data name="lblLastLap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLastLap.Name" xml:space="preserve">
+    <value>lblLastLap</value>
+  </data>
+  <data name="&gt;&gt;lblLastLap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLastLap.Parent" xml:space="preserve">
+    <value>panelControlLasLap</value>
+  </data>
+  <data name="&gt;&gt;lblLastLap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTimeAttack.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>100, 60, 60, 60</value>
+  </data>
+  <data name="panelControlTarget.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblTA_Target.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTA_Target.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="lblTA_Target.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 0</value>
+  </data>
+  <data name="lblTA_Target.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTA_Target.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 78</value>
+  </data>
+  <data name="lblTA_Target.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblTA_Target.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblTA_Target.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTA_Target.Name" xml:space="preserve">
+    <value>lblTA_Target</value>
+  </data>
+  <data name="&gt;&gt;lblTA_Target.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTA_Target.Parent" xml:space="preserve">
+    <value>panelControlTarget</value>
+  </data>
+  <data name="&gt;&gt;lblTA_Target.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 78</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Target :</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panelControlTarget</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControlTarget.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControlTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 319</value>
+  </data>
+  <data name="panelControlTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 78</value>
+  </data>
+  <data name="panelControlTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelControlTarget.Name" xml:space="preserve">
+    <value>panelControlTarget</value>
+  </data>
+  <data name="&gt;&gt;panelControlTarget.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlTarget.Parent" xml:space="preserve">
+    <value>panelTimeAttack</value>
+  </data>
+  <data name="&gt;&gt;panelControlTarget.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTA_Level.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblTimeAttackLevel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblTimeAttackLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="lblTimeAttackLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 0</value>
+  </data>
+  <data name="lblTimeAttackLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTimeAttackLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 96</value>
+  </data>
+  <data name="lblTimeAttackLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblTimeAttackLevel.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblTimeAttackLevel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackLevel.Name" xml:space="preserve">
+    <value>lblTimeAttackLevel</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackLevel.Parent" xml:space="preserve">
+    <value>panelTA_Level</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 96</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Level : </value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelTA_Level</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelTA_Level.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTA_Level.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 223</value>
+  </data>
+  <data name="panelTA_Level.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 96</value>
+  </data>
+  <data name="panelTA_Level.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Level.Name" xml:space="preserve">
+    <value>panelTA_Level</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Level.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Level.Parent" xml:space="preserve">
+    <value>panelTimeAttack</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Level.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControlBonus.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22pt, style=Italic</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 110</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblTimeAttackBonusMalus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackBonusMalus.Name" xml:space="preserve">
+    <value>lblTimeAttackBonusMalus</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackBonusMalus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackBonusMalus.Parent" xml:space="preserve">
+    <value>panelControlBonus</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackBonusMalus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControlBonus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControlBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 113</value>
+  </data>
+  <data name="panelControlBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 110</value>
+  </data>
+  <data name="panelControlBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panelControlBonus.Name" xml:space="preserve">
+    <value>panelControlBonus</value>
+  </data>
+  <data name="&gt;&gt;panelControlBonus.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlBonus.Parent" xml:space="preserve">
+    <value>panelTimeAttack</value>
+  </data>
+  <data name="&gt;&gt;panelControlBonus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelTA_Time.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblTimeAttackCounter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblTimeAttackCounter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="lblTimeAttackCounter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 0</value>
+  </data>
+  <data name="lblTimeAttackCounter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTimeAttackCounter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 113</value>
+  </data>
+  <data name="lblTimeAttackCounter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTimeAttackCounter.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblTimeAttackCounter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackCounter.Name" xml:space="preserve">
+    <value>lblTimeAttackCounter</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackCounter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackCounter.Parent" xml:space="preserve">
+    <value>panelTA_Time</value>
+  </data>
+  <data name="&gt;&gt;lblTimeAttackCounter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Italic</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 113</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Time :</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelTA_Time</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Italic</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 0</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 113</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panelTA_Time</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelTA_Time.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTA_Time.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelTA_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 113</value>
+  </data>
+  <data name="panelTA_Time.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Time.Name" xml:space="preserve">
+    <value>panelTA_Time</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Time.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Time.Parent" xml:space="preserve">
+    <value>panelTimeAttack</value>
+  </data>
+  <data name="&gt;&gt;panelTA_Time.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelTimeAttack.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelTimeAttack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 335</value>
+  </data>
+  <data name="panelTimeAttack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 405</value>
+  </data>
+  <data name="panelTimeAttack.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="panelTimeAttack.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelTimeAttack.Name" xml:space="preserve">
+    <value>panelTimeAttack</value>
+  </data>
+  <data name="&gt;&gt;panelTimeAttack.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTimeAttack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTimeAttack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblTeamBestLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTeamBestLap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Italic</value>
+  </data>
+  <data name="lblTeamBestLap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTeamBestLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblTeamBestLap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblTeamBestLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 30</value>
+  </data>
+  <data name="lblTeamBestLap.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblTeamBestLap.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="lblTeamBestLap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblTeamBestLap.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblTeamBestLap.Name" xml:space="preserve">
+    <value>lblTeamBestLap</value>
+  </data>
+  <data name="&gt;&gt;lblTeamBestLap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeamBestLap.Parent" xml:space="preserve">
+    <value>panelControlTeamBestLap</value>
+  </data>
+  <data name="&gt;&gt;lblTeamBestLap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPosition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 44pt, style=Italic</value>
+  </data>
+  <data name="lblPosition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblPosition.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 82</value>
+  </data>
+  <data name="lblPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblPosition.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPosition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Name" xml:space="preserve">
+    <value>lblPosition</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Parent" xml:space="preserve">
+    <value>panelControl_Position</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl_Position.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControl_Position.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelControl_Position.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl_Position.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 87</value>
+  </data>
+  <data name="panelControl_Position.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 82</value>
+  </data>
+  <data name="panelControl_Position.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;panelControl_Position.Name" xml:space="preserve">
+    <value>panelControl_Position</value>
+  </data>
+  <data name="&gt;&gt;panelControl_Position.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControl_Position.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl_Position.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelControl_PilotImage.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControl_PilotImage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelControl_PilotImage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelControl_PilotImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 740</value>
+  </data>
+  <data name="panelControl_PilotImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 183</value>
+  </data>
+  <data name="panelControl_PilotImage.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panelControl_PilotImage.Name" xml:space="preserve">
+    <value>panelControl_PilotImage</value>
+  </data>
+  <data name="&gt;&gt;panelControl_PilotImage.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControl_PilotImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl_PilotImage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl_LapsInfos.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControl_LapsInfos.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panelControlBestLap.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControlBestLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControlBestLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="panelControlBestLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 48</value>
+  </data>
+  <data name="panelControlBestLap.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;panelControlBestLap.Name" xml:space="preserve">
+    <value>panelControlBestLap</value>
+  </data>
+  <data name="&gt;&gt;panelControlBestLap.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlBestLap.Parent" xml:space="preserve">
+    <value>panelControl_LapsInfos</value>
+  </data>
+  <data name="&gt;&gt;panelControlBestLap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControlLasLap.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControlLasLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelControlLasLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 94</value>
+  </data>
+  <data name="panelControlLasLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 42</value>
+  </data>
+  <data name="panelControlLasLap.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelControlLasLap.Name" xml:space="preserve">
+    <value>panelControlLasLap</value>
+  </data>
+  <data name="&gt;&gt;panelControlLasLap.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlLasLap.Parent" xml:space="preserve">
+    <value>panelControl_LapsInfos</value>
+  </data>
+  <data name="&gt;&gt;panelControlLasLap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControlTeamBestLap.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControlTeamBestLap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelControlTeamBestLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 136</value>
+  </data>
+  <data name="panelControlTeamBestLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 30</value>
+  </data>
+  <data name="panelControlTeamBestLap.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panelControlTeamBestLap.Name" xml:space="preserve">
+    <value>panelControlTeamBestLap</value>
+  </data>
+  <data name="&gt;&gt;panelControlTeamBestLap.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlTeamBestLap.Parent" xml:space="preserve">
+    <value>panelControl_LapsInfos</value>
+  </data>
+  <data name="&gt;&gt;panelControlTeamBestLap.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelControlLapCount.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControlLapCount.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControlLapCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControlLapCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 46</value>
+  </data>
+  <data name="panelControlLapCount.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;panelControlLapCount.Name" xml:space="preserve">
+    <value>panelControlLapCount</value>
+  </data>
+  <data name="&gt;&gt;panelControlLapCount.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControlLapCount.Parent" xml:space="preserve">
+    <value>panelControl_LapsInfos</value>
+  </data>
+  <data name="&gt;&gt;panelControlLapCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelControl_LapsInfos.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl_LapsInfos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 169</value>
+  </data>
+  <data name="panelControl_LapsInfos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 166</value>
+  </data>
+  <data name="panelControl_LapsInfos.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panelControl_LapsInfos.Name" xml:space="preserve">
+    <value>panelControl_LapsInfos</value>
+  </data>
+  <data name="&gt;&gt;panelControl_LapsInfos.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelControl_LapsInfos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelControl_LapsInfos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelCar.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelCar.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="pictureEditCar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureEditCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pictureEditCar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pictureEditCar.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pictureEditCar.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pictureEditCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 187</value>
+  </data>
+  <data name="pictureEditCar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureEditCar.Name" xml:space="preserve">
+    <value>pictureEditCar</value>
+  </data>
+  <data name="&gt;&gt;pictureEditCar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pictureEditCar.Parent" xml:space="preserve">
+    <value>panelCar</value>
+  </data>
+  <data name="&gt;&gt;pictureEditCar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelCar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 923</value>
+  </data>
+  <data name="panelCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 187</value>
+  </data>
+  <data name="panelCar.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;panelCar.Name" xml:space="preserve">
+    <value>panelCar</value>
+  </data>
+  <data name="&gt;&gt;panelCar.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelCar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelCar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 1110</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TimeAttackTeamPanelColumn</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.ScalableControl, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

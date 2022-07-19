@@ -1,0 +1,1863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSoundPitStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblIncident.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSoundPitLaneInFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblGo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnSoundWarningFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundIncident.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundSFLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundPitStopFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnRain1File.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStop.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblRain1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblCountDownBeep.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblCountDownBeep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 402</value>
+  </data>
+  <data name="lblYF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblLapRecord.Name" xml:space="preserve">
+    <value>lblLapRecord</value>
+  </data>
+  <data name="&gt;&gt;lblAlert.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLineFile.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnSoundSFLine.Text" xml:space="preserve">
+    <value>Passage sur ligne de départ</value>
+  </data>
+  <data name="lblRain3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnSoundEndRelay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="lblIncident.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundEndRelayFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lbloundEndRelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlagFile.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblRain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 73</value>
+  </data>
+  <data name="&gt;&gt;lblGF.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecord.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarningFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnRain1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblFinish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblFinish.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundEndRelayFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundFinishFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundSFLineFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnRain2File.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundLapRecordFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 273</value>
+  </data>
+  <data name="btnRain1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundAlertFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblSFLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="&gt;&gt;lblPitIn.Name" xml:space="preserve">
+    <value>lblPitIn</value>
+  </data>
+  <data name="btnSoundGoFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblGF.Name" xml:space="preserve">
+    <value>lblGF</value>
+  </data>
+  <data name="btnSoundPitLaneIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblYF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundFinishFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panelFill.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnSoundFinish.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundBeepFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLine.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 149</value>
+  </data>
+  <data name="lblFinish.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;btnRain3.Name" xml:space="preserve">
+    <value>btnRain3</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSoundSFLine.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="lblWarning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="lblIncident.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="lblLapRecord.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="btnRain1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 67</value>
+  </data>
+  <data name="btnRain2File.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblYF.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGo.Name" xml:space="preserve">
+    <value>btnSoundGo</value>
+  </data>
+  <data name="lblRain3.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecordFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundPitStopFile.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblCountDownBeep.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelFill.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnSoundEndRelayFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnRain2File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelayFile.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundEndRelayFile.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="lblPitStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnRain1File.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarning.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundBeepFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundWarning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbloundEndRelay.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;btnRain1File.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblRain2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSoundGreenFlag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundLapRecord.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinishFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncidentFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlert.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGo.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinish.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundAlert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlagFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnRain3.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundYFlag.Text" xml:space="preserve">
+    <value>Drapeaux Jaune</value>
+  </data>
+  <data name="btnSoundYFlagFile.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="btnRain2File.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnRain1File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneInFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;lblSFLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbloundEndRelay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRain3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundYFlag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnRain3File.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnRain2.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundEndRelayFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnRain2File.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSoundIncidentFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlag.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnRain2File.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblGo.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnSoundSFLineFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRain3File.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundWarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 192</value>
+  </data>
+  <data name="btnSoundSFLineFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 193</value>
+  </data>
+  <data name="btnSoundFinishFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPitStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lbloundEndRelay.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelay.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundPitStopFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelayFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlertFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnRain2File.Name" xml:space="preserve">
+    <value>btnRain2File</value>
+  </data>
+  <data name="btnSoundYFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;btnRain1File.Name" xml:space="preserve">
+    <value>btnRain1File</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLineFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundYFlagFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblGF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblWarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 197</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarning.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundFinish.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinish.Name" xml:space="preserve">
+    <value>btnSoundFinish</value>
+  </data>
+  <data name="btnSoundAlert.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlagFile.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="btnSoundWarningFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIncident.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="btnSoundAlertFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundIncidentFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundBeepFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundLapRecordFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblFinish.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnSoundWarning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncidentFile.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;lblPitStop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGo.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnRain3File.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundAlertFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnRain3.Text" xml:space="preserve">
+    <value>Pluie forte</value>
+  </data>
+  <data name="btnRain2.Text" xml:space="preserve">
+    <value>Pluie moyenne</value>
+  </data>
+  <data name="btnSoundFinish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundBeepFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnRain3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundEndRelay.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.ScalableControl, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundEndRelayFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundWarning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="btnSoundIncidentFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundSFLine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;panelFill.Name" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundLapRecord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panelFill.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSoundGo.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlertFile.Name" xml:space="preserve">
+    <value>btnSoundAlertFile</value>
+  </data>
+  <data name="&gt;&gt;lblRain2.Name" xml:space="preserve">
+    <value>lblRain2</value>
+  </data>
+  <data name="&gt;&gt;lblYF.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="btnRain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnRain3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundSFLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 194</value>
+  </data>
+  <data name="lblPitStop.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecordFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundLapRecordFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panelFill.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="btnSoundEndRelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPitIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblYF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 73</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Name" xml:space="preserve">
+    <value>lblWarning</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStopFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;lblIncident.Name" xml:space="preserve">
+    <value>lblIncident</value>
+  </data>
+  <data name="lblIncident.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblSFLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlert.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundSFLineFile.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="btnSoundAlertFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblYF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnRain2File.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnRain3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 149</value>
+  </data>
+  <data name="lblRain3.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="btnSoundGo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundFinishFile.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="btnSoundAlertFile.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="btnSoundPitStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 438</value>
+  </data>
+  <data name="&gt;&gt;btnRain1.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundPitStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncident.Name" xml:space="preserve">
+    <value>btnSoundIncident</value>
+  </data>
+  <data name="&gt;&gt;lblRain1.Name" xml:space="preserve">
+    <value>lblRain1</value>
+  </data>
+  <data name="lblRain2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPitIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 156</value>
+  </data>
+  <data name="&gt;&gt;btnRain2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecordFile.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblLapRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="lblSFLine.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;btnRain1File.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblPitStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRain2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundAlertFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarning.Name" xml:space="preserve">
+    <value>btnSoundWarning</value>
+  </data>
+  <data name="lbloundEndRelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundEndRelayFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 26</value>
+  </data>
+  <data name="&gt;&gt;lblIncident.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRain3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="btnSoundBeep.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="btnSoundIncidentFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnRain3File.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinishFile.Name" xml:space="preserve">
+    <value>btnSoundFinishFile</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecord.Name" xml:space="preserve">
+    <value>btnSoundLapRecord</value>
+  </data>
+  <data name="btnSoundIncidentFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 314</value>
+  </data>
+  <data name="&gt;&gt;btnRain2.Name" xml:space="preserve">
+    <value>btnRain2</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeepFile.Name" xml:space="preserve">
+    <value>btnSoundBeepFile</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblLapRecord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblCountDownBeep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblRain2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblRain3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundBeepFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnRain3File.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundLapRecordFile.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlag.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="lblSFLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 199</value>
+  </data>
+  <data name="lblGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinishFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="btnRain3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarningFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneIn.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStopFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSoundLapRecord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundFinish.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundGreenFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 109</value>
+  </data>
+  <data name="&gt;&gt;lblGo.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblRain2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 114</value>
+  </data>
+  <data name="&gt;&gt;lblRain3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRain2.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="btnSoundLapRecordFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblGF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSoundGreenFlag.Text" xml:space="preserve">
+    <value>Drapeaux vert</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeep.Name" xml:space="preserve">
+    <value>btnSoundBeep</value>
+  </data>
+  <data name="&gt;&gt;btnRain1.Name" xml:space="preserve">
+    <value>btnRain1</value>
+  </data>
+  <data name="btnRain2File.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelay.Name" xml:space="preserve">
+    <value>btnSoundEndRelay</value>
+  </data>
+  <data name="btnSoundSFLine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelFill.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="lblLapRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblSFLine.Name" xml:space="preserve">
+    <value>lblSFLine</value>
+  </data>
+  <data name="btnRain1File.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLapRecord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWarning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlagFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundLapRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="btnSoundLapRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecord.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundFinish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecord.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnRain2File.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 108</value>
+  </data>
+  <data name="btnSoundBeepFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 396</value>
+  </data>
+  <data name="btnSoundWarning.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;lblIncident.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnSoundYFlagFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 67</value>
+  </data>
+  <data name="lblYF.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlertFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRain2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 108</value>
+  </data>
+  <data name="lblRain1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnSoundPitLaneIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlagFile.Name" xml:space="preserve">
+    <value>btnSoundGreenFlagFile</value>
+  </data>
+  <data name="&gt;&gt;lbloundEndRelay.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panelFill.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;panelFill.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundIncidentFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelayFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneInFile.Name" xml:space="preserve">
+    <value>btnSoundPitLaneInFile</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGoFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;lblLapRecord.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundIncident.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 315</value>
+  </data>
+  <data name="btnSoundPitStop.Text" xml:space="preserve">
+    <value>Arrêt aux stands</value>
+  </data>
+  <data name="lblGF.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="lbloundEndRelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 32</value>
+  </data>
+  <data name="btnSoundEndRelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeepFile.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;lblPitIn.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundPitLaneIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 151</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlag.Name" xml:space="preserve">
+    <value>btnSoundYFlag</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundGo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundYFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnSoundIncident.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundIncident.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlagFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundIncidentFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLapRecord.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="btnSoundPitStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 443</value>
+  </data>
+  <data name="btnSoundPitLaneIn.Text" xml:space="preserve">
+    <value>Entrée dans la pit lane</value>
+  </data>
+  <data name="lblRain1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblRain2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbloundEndRelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblRain3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundEndRelayFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblAlert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlert.Name" xml:space="preserve">
+    <value>btnSoundAlert</value>
+  </data>
+  <data name="lblCountDownBeep.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLineFile.Name" xml:space="preserve">
+    <value>btnSoundSFLineFile</value>
+  </data>
+  <data name="btnRain2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarning.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneInFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLapRecord.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlertFile.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="btnSoundYFlagFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSoundLapRecordFile.Name" xml:space="preserve">
+    <value>btnSoundLapRecordFile</value>
+  </data>
+  <data name="btnRain1.Text" xml:space="preserve">
+    <value>Pluie légère</value>
+  </data>
+  <data name="lblPitStop.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="lblGF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlagFile.Name" xml:space="preserve">
+    <value>btnSoundYFlagFile</value>
+  </data>
+  <data name="btnSoundPitLaneIn.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="panelFill.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblRain1.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;lblGF.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncident.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRain1File.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="lblYF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="lblGF.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="lblWarning.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="btnSoundWarningFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 191</value>
+  </data>
+  <data name="btnSoundBeep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 397</value>
+  </data>
+  <data name="btnRain2File.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundPitStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundFinish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 356</value>
+  </data>
+  <data name="&gt;&gt;lbloundEndRelay.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblGo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundLapRecordFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblSFLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlagFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblAlert.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblGo.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="btnSoundWarningFile.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="btnSoundPitStopFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 437</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneIn.Name" xml:space="preserve">
+    <value>btnSoundPitLaneIn</value>
+  </data>
+  <data name="lblPitIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGoFile.Name" xml:space="preserve">
+    <value>btnSoundGoFile</value>
+  </data>
+  <data name="lblGF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 114</value>
+  </data>
+  <data name="&gt;&gt;lblRain3.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblRain2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="btnSoundWarningFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnRain2.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnRain3File.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 149</value>
+  </data>
+  <data name="lblRain2.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="btnSoundWarning.Text" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="&gt;&gt;lblPitStop.Name" xml:space="preserve">
+    <value>lblPitStop</value>
+  </data>
+  <data name="btnSoundAlert.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeepFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundFinishFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 355</value>
+  </data>
+  <data name="btnSoundGoFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblAlert.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblWarning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblRain3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSoundFinish.Text" xml:space="preserve">
+    <value>Fin de course</value>
+  </data>
+  <data name="btnRain1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="lblCountDownBeep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAlert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 238</value>
+  </data>
+  <data name="lblRain3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 155</value>
+  </data>
+  <data name="&gt;&gt;lblPitStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSoundGreenFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnRain1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundEndRelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGo.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarningFile.Name" xml:space="preserve">
+    <value>btnSoundWarningFile</value>
+  </data>
+  <data name="lblFinish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundYFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 68</value>
+  </data>
+  <data name="btnSoundBeep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="lblPitIn.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="&gt;&gt;lblRain2.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneIn.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="btnRain3File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundBeepFile.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="btnSoundFinishFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblCountDownBeep.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="panelFill.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1221, 505</value>
+  </data>
+  <data name="&gt;&gt;lblLapRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGo.Name" xml:space="preserve">
+    <value>lblGo</value>
+  </data>
+  <data name="lblFinish.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="lblWarning.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinish.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;lblYF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelFill.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnRain1File.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 67</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeep.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundAlertFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 232</value>
+  </data>
+  <data name="btnSoundIncident.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLineFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundGoFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlag.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncident.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundSFLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnRain3File.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="btnRain3File.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundSFLineFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundWarningFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundYFlag.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundYFlagFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="lblLapRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 279</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGoFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnRain3.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRain3File.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneIn.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblRain2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStop.Name" xml:space="preserve">
+    <value>btnSoundPitStop</value>
+  </data>
+  <data name="btnSoundWarningFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnRain1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundAlertFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRain1File.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lblPitIn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundPitStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblRain1.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="btnSoundGoFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundSFLineFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblPitIn.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnRain2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblWarning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCountDownBeep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="btnSoundAlert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnSoundIncident.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundBeep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbloundEndRelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="&gt;&gt;lblRain1.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundAlert.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="panelFill.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRain2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlag.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundWarningFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlag.Name" xml:space="preserve">
+    <value>btnSoundGreenFlag</value>
+  </data>
+  <data name="&gt;&gt;btnSoundYFlag.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundPitStopFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundSFLineFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="lblPitIn.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="btnSoundBeep.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLine.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;lblRain1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRain3.Name" xml:space="preserve">
+    <value>lblRain3</value>
+  </data>
+  <data name="lblCountDownBeep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="btnSoundLapRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="lblIncident.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFinish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 361</value>
+  </data>
+  <data name="btnSoundAlert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 233</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelay.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnSoundIncident.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="lblIncident.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 320</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStopFile.Name" xml:space="preserve">
+    <value>btnSoundPitStopFile</value>
+  </data>
+  <data name="btnSoundGoFile.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeep.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 37</value>
+  </data>
+  <data name="btnSoundYFlagFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblAlert.Name" xml:space="preserve">
+    <value>lblAlert</value>
+  </data>
+  <data name="lblAlert.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <data name="lblRain2.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1221, 505</value>
+  </data>
+  <data name="&gt;&gt;lblSFLine.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblAlert.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinishFile.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;lblRain1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSoundGoFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;panelFill.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRain3File.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundPitLaneIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSoundWarningFile.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncidentFile.Name" xml:space="preserve">
+    <value>btnSoundIncidentFile</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundLapRecordFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="lblFinish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAlert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSoundGreenFlag.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundPitStop.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="btnSoundGoFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundPitStopFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRain3.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="btnSoundWarning.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundGreenFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeepFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnRain3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnSoundIncident.Text" xml:space="preserve">
+    <value>Incident</value>
+  </data>
+  <data name="lblAlert.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncidentFile.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="lblYF.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitLaneInFile.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="panelFill.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnRain1File.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;lblFinish.Name" xml:space="preserve">
+    <value>lblFinish</value>
+  </data>
+  <data name="lblSFLine.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;btnRain1.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundPitLaneIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundPitStopFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblRain1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 20</value>
+  </data>
+  <data name="btnSoundAlert.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitIn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt</value>
+  </data>
+  <data name="btnSoundFinishFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundAlert.Text" xml:space="preserve">
+    <value>Alerte</value>
+  </data>
+  <data name="btnSoundBeep.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundGo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lblGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblYF.Name" xml:space="preserve">
+    <value>lblYF</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLine.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRain2File.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblFinish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSoundFinish.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnRain1.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="btnSoundFinish.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCountDownBeep.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="btnSoundGoFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 26</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStop.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelayFile.Name" xml:space="preserve">
+    <value>btnSoundEndRelayFile</value>
+  </data>
+  <data name="btnSoundSFLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnRain1File.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPitIn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSFLine.Name" xml:space="preserve">
+    <value>btnSoundSFLine</value>
+  </data>
+  <data name="btnSoundGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 27</value>
+  </data>
+  <data name="btnSoundPitLaneIn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundGreenFlagFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 108</value>
+  </data>
+  <data name="btnSoundYFlagFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWarning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundBeep.Text" xml:space="preserve">
+    <value>Bip de compte à rebours</value>
+  </data>
+  <data name="btnSoundEndRelay.Text" xml:space="preserve">
+    <value>Fin de relais</value>
+  </data>
+  <data name="btnSoundFinishFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="btnSoundYFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SoundsParams</value>
+  </data>
+  <data name="btnSoundBeep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 35</value>
+  </data>
+  <data name="btnSoundGreenFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStop.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundIncidentFile.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;lblCountDownBeep.Name" xml:space="preserve">
+    <value>lblCountDownBeep</value>
+  </data>
+  <data name="btnSoundWarning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSoundIncident.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;lblPitStop.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGreenFlag.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblIncident.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;btnRain3File.Name" xml:space="preserve">
+    <value>btnRain3File</value>
+  </data>
+  <data name="&gt;&gt;lbloundEndRelay.Name" xml:space="preserve">
+    <value>lbloundEndRelay</value>
+  </data>
+  <data name="btnSoundSFLineFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAlert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundBeep.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;lblSFLine.Parent" xml:space="preserve">
+    <value>panelFill</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundBeepFile.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnSoundYFlagFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSoundEndRelay.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblSFLine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundPitStopFile.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRain2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSoundEndRelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 26</value>
+  </data>
+  <data name="btnSoundLapRecordFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSoundGoFile.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnSoundPitStopFile.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSoundGreenFlag.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundLapRecord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 274</value>
+  </data>
+  <data name="btnRain3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundYFlag.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundEndRelay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnSoundPitLaneInFile.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="btnSoundGo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="btnSoundLapRecord.Text" xml:space="preserve">
+    <value>Meilleur tour</value>
+  </data>
+  <data name="btnSoundAlert.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 11.25pt</value>
+  </data>
+  <data name="lblFinish.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="lblGo.Text" xml:space="preserve">
+    <value>Sound Title</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panelFill.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

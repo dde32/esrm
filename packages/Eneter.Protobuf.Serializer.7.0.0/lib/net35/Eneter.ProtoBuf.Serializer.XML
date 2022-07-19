@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eneter.ProtoBuf.Serializer</name>
+    </assembly>
+    <members>
+        <member name="T:Eneter.ProtoBuf.ProtoBufSerializer">
+            <summary>
+            Implements protocol buffer serialization for Eneter.Messaging.Framework.
+            </summary>
+        </member>
+        <member name="M:Eneter.ProtoBuf.ProtoBufSerializer.Serialize``1(``0)">
+            <summary>
+            Serializes data using Protocol Buffer binary format.
+            </summary>
+            <typeparam name="T">data type of serialized data</typeparam>
+            <param name="dataToSerialize">protocol buffer generated data class to be serialized.</param>
+            <returns>array containing serialized data</returns>
+        </member>
+        <member name="M:Eneter.ProtoBuf.ProtoBufSerializer.Deserialize``1(System.Object)">
+            <summary>
+            Deserializes data from the Protocol Buffer binary format.
+            </summary>
+            <typeparam name="T">data type of deserialized data.</typeparam>
+            <param name="serializedData">data (byte[]) serialized by protocol buffer to be deserialized</param>
+            <returns>instance of deserialized data type</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTeam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblTeam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic, Underline</value>
+  </data>
+  <data name="lblTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 0</value>
+  </data>
+  <data name="lblTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 51</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTeam.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTeam.Text" xml:space="preserve">
+    <value>Team Name</value>
+  </data>
+  <data name="lblTeam.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Name" xml:space="preserve">
+    <value>lblTeam</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.Parent" xml:space="preserve">
+    <value>panelTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTeam.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPosition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblPosition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="lblPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 51</value>
+  </data>
+  <data name="lblPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblPosition.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPosition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Name" xml:space="preserve">
+    <value>lblPosition</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.Parent" xml:space="preserve">
+    <value>panelTitle</value>
+  </data>
+  <data name="&gt;&gt;lblPosition.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPilot1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPilot1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblPilot1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="lblPilot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="lblPilot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="lblPilot1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblPilot1.Text" xml:space="preserve">
+    <value>Pilote 1</value>
+  </data>
+  <data name="&gt;&gt;lblPilot1.Name" xml:space="preserve">
+    <value>lblPilot1</value>
+  </data>
+  <data name="&gt;&gt;lblPilot1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPilot1.Parent" xml:space="preserve">
+    <value>panelP1Name</value>
+  </data>
+  <data name="&gt;&gt;lblPilot1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPilot2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPilot2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblPilot2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="lblPilot2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="lblPilot2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="lblPilot2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblPilot2.Text" xml:space="preserve">
+    <value>Pilote 2</value>
+  </data>
+  <data name="&gt;&gt;lblPilot2.Name" xml:space="preserve">
+    <value>lblPilot2</value>
+  </data>
+  <data name="&gt;&gt;lblPilot2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPilot2.Parent" xml:space="preserve">
+    <value>panelP2Name</value>
+  </data>
+  <data name="&gt;&gt;lblPilot2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbPilot1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbPilot1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbPilot1.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot1.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 211</value>
+  </data>
+  <data name="pbPilot1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pbPilot1.Name" xml:space="preserve">
+    <value>pbPilot1</value>
+  </data>
+  <data name="&gt;&gt;pbPilot1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbPilot1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;pbPilot1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPilot3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPilot3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblPilot3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="lblPilot3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 0</value>
+  </data>
+  <data name="lblPilot3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <data name="lblPilot3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblPilot3.Text" xml:space="preserve">
+    <value>Pilote 3</value>
+  </data>
+  <data name="&gt;&gt;lblPilot3.Name" xml:space="preserve">
+    <value>lblPilot3</value>
+  </data>
+  <data name="&gt;&gt;lblPilot3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPilot3.Parent" xml:space="preserve">
+    <value>panelP3Name</value>
+  </data>
+  <data name="&gt;&gt;lblPilot3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pbPilot2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbPilot2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbPilot2.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot2.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 204</value>
+  </data>
+  <data name="pbPilot2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;pbPilot2.Name" xml:space="preserve">
+    <value>pbPilot2</value>
+  </data>
+  <data name="&gt;&gt;pbPilot2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbPilot2.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;pbPilot2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMaxPowerP1.Caption" xml:space="preserve">
+    <value>Max Power</value>
+  </data>
+  <data name="btnMaxPowerP1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnMaxPowerP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="btnMaxPowerP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnMaxPowerP1.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnMaxPowerP1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP1.Name" xml:space="preserve">
+    <value>btnMaxPowerP1</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP1.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP1.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnFuelHandicapP1.Caption" xml:space="preserve">
+    <value>Handicap carburant</value>
+  </data>
+  <data name="btnFuelHandicapP1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnFuelHandicapP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 128</value>
+  </data>
+  <data name="btnFuelHandicapP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnFuelHandicapP1.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnFuelHandicapP1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP1.Name" xml:space="preserve">
+    <value>btnFuelHandicapP1</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP1.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP1.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnDamagesHandicapP1.Caption" xml:space="preserve">
+    <value>Handicap dommages</value>
+  </data>
+  <data name="btnDamagesHandicapP1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnDamagesHandicapP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 168</value>
+  </data>
+  <data name="btnDamagesHandicapP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnDamagesHandicapP1.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnDamagesHandicapP1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP1.Name" xml:space="preserve">
+    <value>btnDamagesHandicapP1</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP1.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP1.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelTitle.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="panelTitle.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>DimGray</value>
+  </data>
+  <data name="lblColor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblColor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 12pt, style=Italic, Underline</value>
+  </data>
+  <data name="lblColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 0</value>
+  </data>
+  <data name="lblColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 51</value>
+  </data>
+  <data name="lblColor.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="lblColor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Name" xml:space="preserve">
+    <value>lblColor</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblColor.Parent" xml:space="preserve">
+    <value>panelTitle</value>
+  </data>
+  <data name="&gt;&gt;lblColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 51</value>
+  </data>
+  <data name="panelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;panelTitle.Name" xml:space="preserve">
+    <value>panelTitle</value>
+  </data>
+  <data name="&gt;&gt;panelTitle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelControl3.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbPilot3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pbPilot3.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot3.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbPilot3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 212</value>
+  </data>
+  <data name="pbPilot3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pbPilot3.Name" xml:space="preserve">
+    <value>pbPilot3</value>
+  </data>
+  <data name="&gt;&gt;pbPilot3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbPilot3.Parent" xml:space="preserve">
+    <value>panelControl3</value>
+  </data>
+  <data name="&gt;&gt;pbPilot3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="panelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 212</value>
+  </data>
+  <data name="panelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Name" xml:space="preserve">
+    <value>panelControl3</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Parent" xml:space="preserve">
+    <value>panelP3</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelButtonParamsP3.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnP3TriggerCurves.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnP3TriggerCurves.Caption" xml:space="preserve">
+    <value>Calibrer / Courbes</value>
+  </data>
+  <data name="btnP3TriggerCurves.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnP3TriggerCurves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 83</value>
+  </data>
+  <data name="btnP3TriggerCurves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnP3TriggerCurves.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnP3TriggerCurves.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnP3TriggerCurves.Name" xml:space="preserve">
+    <value>btnP3TriggerCurves</value>
+  </data>
+  <data name="&gt;&gt;btnP3TriggerCurves.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnP3TriggerCurves.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;btnP3TriggerCurves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkBxDynBrakeP3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBxDynBrakeP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 11.25pt</value>
+  </data>
+  <data name="chkBxDynBrakeP3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkBxDynBrakeP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 50</value>
+  </data>
+  <data name="chkBxDynBrakeP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="chkBxDynBrakeP3.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="chkBxDynBrakeP3.Text" xml:space="preserve">
+    <value>Dynamic brake</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP3.Name" xml:space="preserve">
+    <value>chkBxDynBrakeP3</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP3.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMaxPowerP3.Caption" xml:space="preserve">
+    <value>Max Power</value>
+  </data>
+  <data name="btnMaxPowerP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnMaxPowerP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="btnMaxPowerP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnMaxPowerP3.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnMaxPowerP3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP3.Name" xml:space="preserve">
+    <value>btnMaxPowerP3</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP3.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP3.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnBrakeParamP3.Caption" xml:space="preserve">
+    <value>Limitation frein</value>
+  </data>
+  <data name="btnBrakeParamP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnBrakeParamP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 43</value>
+  </data>
+  <data name="btnBrakeParamP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="btnBrakeParamP3.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnBrakeParamP3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP3.Name" xml:space="preserve">
+    <value>btnBrakeParamP3</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP3.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP3.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDamagesHandicapP3.Caption" xml:space="preserve">
+    <value>Handicap dommages</value>
+  </data>
+  <data name="btnDamagesHandicapP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnDamagesHandicapP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 163</value>
+  </data>
+  <data name="btnDamagesHandicapP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnDamagesHandicapP3.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnDamagesHandicapP3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP3.Name" xml:space="preserve">
+    <value>btnDamagesHandicapP3</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP3.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP3.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnFuelHandicapP3.Caption" xml:space="preserve">
+    <value>Handicap carburant</value>
+  </data>
+  <data name="btnFuelHandicapP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnFuelHandicapP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 123</value>
+  </data>
+  <data name="btnFuelHandicapP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnFuelHandicapP3.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnFuelHandicapP3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP3.Name" xml:space="preserve">
+    <value>btnFuelHandicapP3</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP3.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP3.Parent" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelButtonParamsP3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelButtonParamsP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 32</value>
+  </data>
+  <data name="panelButtonParamsP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 212</value>
+  </data>
+  <data name="panelButtonParamsP3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP3.Name" xml:space="preserve">
+    <value>panelButtonParamsP3</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP3.Parent" xml:space="preserve">
+    <value>panelP3</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP3Name.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="panelP3Name.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>64, 64, 64</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Pilote 3 :</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelP3Name</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP3Name.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP3Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelP3Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 32</value>
+  </data>
+  <data name="panelP3Name.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelP3Name.Name" xml:space="preserve">
+    <value>panelP3Name</value>
+  </data>
+  <data name="&gt;&gt;panelP3Name.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP3Name.Parent" xml:space="preserve">
+    <value>panelP3</value>
+  </data>
+  <data name="&gt;&gt;panelP3Name.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelP3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 478</value>
+  </data>
+  <data name="panelP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 244</value>
+  </data>
+  <data name="panelP3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelP3.Name" xml:space="preserve">
+    <value>panelP3</value>
+  </data>
+  <data name="&gt;&gt;panelP3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP3.Parent" xml:space="preserve">
+    <value>panelPilotes</value>
+  </data>
+  <data name="&gt;&gt;panelP3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl2.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 204</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
+    <value>panelP2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelButtonParamsP2.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnP2TriggerCurves.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnP2TriggerCurves.Caption" xml:space="preserve">
+    <value>Calibrer / Courbes</value>
+  </data>
+  <data name="btnP2TriggerCurves.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnP2TriggerCurves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 85</value>
+  </data>
+  <data name="btnP2TriggerCurves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnP2TriggerCurves.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnP2TriggerCurves.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnP2TriggerCurves.Name" xml:space="preserve">
+    <value>btnP2TriggerCurves</value>
+  </data>
+  <data name="&gt;&gt;btnP2TriggerCurves.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnP2TriggerCurves.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;btnP2TriggerCurves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkBxDynBrakeP2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBxDynBrakeP2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 11.25pt</value>
+  </data>
+  <data name="chkBxDynBrakeP2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkBxDynBrakeP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 53</value>
+  </data>
+  <data name="chkBxDynBrakeP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="chkBxDynBrakeP2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="chkBxDynBrakeP2.Text" xml:space="preserve">
+    <value>Dynamic brake</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP2.Name" xml:space="preserve">
+    <value>chkBxDynBrakeP2</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP2.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMaxPowerP2.Caption" xml:space="preserve">
+    <value>Max Power</value>
+  </data>
+  <data name="btnMaxPowerP2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnMaxPowerP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 6</value>
+  </data>
+  <data name="btnMaxPowerP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 34</value>
+  </data>
+  <data name="btnMaxPowerP2.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnMaxPowerP2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP2.Name" xml:space="preserve">
+    <value>btnMaxPowerP2</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP2.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP2.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPowerP2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnBrakeParamP2.Caption" xml:space="preserve">
+    <value>Limitation frein</value>
+  </data>
+  <data name="btnBrakeParamP2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnBrakeParamP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 46</value>
+  </data>
+  <data name="btnBrakeParamP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 34</value>
+  </data>
+  <data name="btnBrakeParamP2.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnBrakeParamP2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP2.Name" xml:space="preserve">
+    <value>btnBrakeParamP2</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP2.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP2.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDamagesHandicapP2.Caption" xml:space="preserve">
+    <value>Handicap dommages</value>
+  </data>
+  <data name="btnDamagesHandicapP2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnDamagesHandicapP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 164</value>
+  </data>
+  <data name="btnDamagesHandicapP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnDamagesHandicapP2.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnDamagesHandicapP2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP2.Name" xml:space="preserve">
+    <value>btnDamagesHandicapP2</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP2.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP2.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;btnDamagesHandicapP2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnFuelHandicapP2.Caption" xml:space="preserve">
+    <value>Handicap carburant</value>
+  </data>
+  <data name="btnFuelHandicapP2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnFuelHandicapP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 124</value>
+  </data>
+  <data name="btnFuelHandicapP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnFuelHandicapP2.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnFuelHandicapP2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP2.Name" xml:space="preserve">
+    <value>btnFuelHandicapP2</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP2.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP2.Parent" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;btnFuelHandicapP2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelButtonParamsP2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelButtonParamsP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 29</value>
+  </data>
+  <data name="panelButtonParamsP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 204</value>
+  </data>
+  <data name="panelButtonParamsP2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP2.Name" xml:space="preserve">
+    <value>panelButtonParamsP2</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP2.Parent" xml:space="preserve">
+    <value>panelP2</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP2Name.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="panelP2Name.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>64, 64, 64</value>
+  </data>
+  <data name="panelP2Name.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Pilote 2 :</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelP2Name</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP2Name.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP2Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelP2Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 29</value>
+  </data>
+  <data name="panelP2Name.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panelP2Name.Name" xml:space="preserve">
+    <value>panelP2Name</value>
+  </data>
+  <data name="&gt;&gt;panelP2Name.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP2Name.Parent" xml:space="preserve">
+    <value>panelP2</value>
+  </data>
+  <data name="&gt;&gt;panelP2Name.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelP2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 245</value>
+  </data>
+  <data name="panelP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 233</value>
+  </data>
+  <data name="panelP2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panelP2.Name" xml:space="preserve">
+    <value>panelP2</value>
+  </data>
+  <data name="&gt;&gt;panelP2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP2.Parent" xml:space="preserve">
+    <value>panelPilotes</value>
+  </data>
+  <data name="&gt;&gt;panelP2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl1.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 211</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>panelP1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelButtonParamsP1.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnP1TriggerCurves.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnP1TriggerCurves.Caption" xml:space="preserve">
+    <value>Calibrer / Courbes</value>
+  </data>
+  <data name="btnP1TriggerCurves.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnP1TriggerCurves.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 87</value>
+  </data>
+  <data name="btnP1TriggerCurves.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 34</value>
+  </data>
+  <data name="btnP1TriggerCurves.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnP1TriggerCurves.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnP1TriggerCurves.Name" xml:space="preserve">
+    <value>btnP1TriggerCurves</value>
+  </data>
+  <data name="&gt;&gt;btnP1TriggerCurves.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnP1TriggerCurves.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;btnP1TriggerCurves.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkBxDynBrakeP1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBxDynBrakeP1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 11.25pt</value>
+  </data>
+  <data name="chkBxDynBrakeP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 53</value>
+  </data>
+  <data name="chkBxDynBrakeP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="chkBxDynBrakeP1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="chkBxDynBrakeP1.Text" xml:space="preserve">
+    <value>Dynamic brake</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP1.Name" xml:space="preserve">
+    <value>chkBxDynBrakeP1</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP1.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;chkBxDynBrakeP1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBrakeParamP1.Caption" xml:space="preserve">
+    <value>Limitation frein</value>
+  </data>
+  <data name="btnBrakeParamP1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="btnBrakeParamP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 46</value>
+  </data>
+  <data name="btnBrakeParamP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 34</value>
+  </data>
+  <data name="btnBrakeParamP1.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnBrakeParamP1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP1.Name" xml:space="preserve">
+    <value>btnBrakeParamP1</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP1.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP1.Parent" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;btnBrakeParamP1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelButtonParamsP1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelButtonParamsP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 34</value>
+  </data>
+  <data name="panelButtonParamsP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 211</value>
+  </data>
+  <data name="panelButtonParamsP1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP1.Name" xml:space="preserve">
+    <value>panelButtonParamsP1</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP1.Parent" xml:space="preserve">
+    <value>panelP1</value>
+  </data>
+  <data name="&gt;&gt;panelButtonParamsP1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP1Name.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="panelP1Name.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>64, 64, 64</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 26</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pilote 1 :</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelP1Name</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelP1Name.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP1Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelP1Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 34</value>
+  </data>
+  <data name="panelP1Name.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelP1Name.Name" xml:space="preserve">
+    <value>panelP1Name</value>
+  </data>
+  <data name="&gt;&gt;panelP1Name.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP1Name.Parent" xml:space="preserve">
+    <value>panelP1</value>
+  </data>
+  <data name="&gt;&gt;panelP1Name.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelP1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 245</value>
+  </data>
+  <data name="panelP1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panelP1.Name" xml:space="preserve">
+    <value>panelP1</value>
+  </data>
+  <data name="&gt;&gt;panelP1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelP1.Parent" xml:space="preserve">
+    <value>panelPilotes</value>
+  </data>
+  <data name="&gt;&gt;panelP1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnPacer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnPacer.Caption" xml:space="preserve">
+    <value>Pilote auto.</value>
+  </data>
+  <data name="btnPacer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnPacer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 120</value>
+  </data>
+  <data name="btnPacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 34</value>
+  </data>
+  <data name="btnPacer.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnPacer.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnPacer.Name" xml:space="preserve">
+    <value>btnPacer</value>
+  </data>
+  <data name="&gt;&gt;btnPacer.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPacer.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnPacer.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnSetId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnSetId.Caption" xml:space="preserve">
+    <value>Affecter num. piste</value>
+  </data>
+  <data name="btnSetId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnSetId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="btnSetId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 34</value>
+  </data>
+  <data name="btnSetId.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnSetId.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnSetId.Name" xml:space="preserve">
+    <value>btnSetId</value>
+  </data>
+  <data name="&gt;&gt;btnSetId.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSetId.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnSetId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1393, 17</value>
+  </metadata>
+  <data name="btnRecordPacerLap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnRecordPacerLap.Caption" xml:space="preserve">
+    <value>Enregistrer tour </value>
+  </data>
+  <data name="btnRecordPacerLap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnRecordPacerLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 197</value>
+  </data>
+  <data name="btnRecordPacerLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 34</value>
+  </data>
+  <data name="btnRecordPacerLap.SubText" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="btnRecordPacerLap.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnRecordPacerLap.Name" xml:space="preserve">
+    <value>btnRecordPacerLap</value>
+  </data>
+  <data name="&gt;&gt;btnRecordPacerLap.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnRecordPacerLap.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnRecordPacerLap.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnPacerPower.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnPacerPower.Caption" xml:space="preserve">
+    <value>Puissance</value>
+  </data>
+  <data name="btnPacerPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnPacerPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="btnPacerPower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnPacerPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 34</value>
+  </data>
+  <data name="btnPacerPower.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPacerPower.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnPacerPower.Name" xml:space="preserve">
+    <value>btnPacerPower</value>
+  </data>
+  <data name="&gt;&gt;btnPacerPower.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPacerPower.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnPacerPower.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnSelectCar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnSelectCar.Caption" xml:space="preserve">
+    <value>Sélectionner voiture</value>
+  </data>
+  <data name="btnSelectCar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnSelectCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 5</value>
+  </data>
+  <data name="btnSelectCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 34</value>
+  </data>
+  <data name="btnSelectCar.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnSelectCar.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnSelectCar.Name" xml:space="preserve">
+    <value>btnSelectCar</value>
+  </data>
+  <data name="&gt;&gt;btnSelectCar.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSelectCar.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnSelectCar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panelTeamParams.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbCar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pbCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="pbCar.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbCar.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="pbCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 198</value>
+  </data>
+  <data name="pbCar.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;pbCar.Name" xml:space="preserve">
+    <value>pbCar</value>
+  </data>
+  <data name="&gt;&gt;pbCar.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pbCar.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pbCar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Italic</value>
+  </data>
+  <data name="lblCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 39</value>
+  </data>
+  <data name="lblCar.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="lblCar.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;lblCar.Name" xml:space="preserve">
+    <value>lblCar</value>
+  </data>
+  <data name="&gt;&gt;lblCar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCar.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblCar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 237</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelTeamParams</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAffectGPFromTh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnAffectGPFromTh.Caption" xml:space="preserve">
+    <value>Select Gamepad</value>
+  </data>
+  <data name="btnAffectGPFromTh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnAffectGPFromTh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 83</value>
+  </data>
+  <data name="btnAffectGPFromTh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 34</value>
+  </data>
+  <data name="btnAffectGPFromTh.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnAffectGPFromTh.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnAffectGPFromTh.Name" xml:space="preserve">
+    <value>btnAffectGPFromTh</value>
+  </data>
+  <data name="&gt;&gt;btnAffectGPFromTh.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAffectGPFromTh.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnAffectGPFromTh.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInCarPro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnInCarPro.Caption" xml:space="preserve">
+    <value>InCarPro</value>
+  </data>
+  <data name="btnInCarPro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnInCarPro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 43</value>
+  </data>
+  <data name="btnInCarPro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 34</value>
+  </data>
+  <data name="btnInCarPro.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnInCarPro.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnInCarPro.Name" xml:space="preserve">
+    <value>btnInCarPro</value>
+  </data>
+  <data name="&gt;&gt;btnInCarPro.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnInCarPro.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnInCarPro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRasCar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnRasCar.Caption" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="btnRasCar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnRasCar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 6</value>
+  </data>
+  <data name="btnRasCar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 34</value>
+  </data>
+  <data name="btnRasCar.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnRasCar.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnRasCar.Name" xml:space="preserve">
+    <value>btnRasCar</value>
+  </data>
+  <data name="&gt;&gt;btnRasCar.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnRasCar.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnRasCar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnUseGamePad.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnUseGamePad.Caption" xml:space="preserve">
+    <value>GamePad </value>
+  </data>
+  <data name="btnUseGamePad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnUseGamePad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="btnUseGamePad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 34</value>
+  </data>
+  <data name="btnUseGamePad.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnUseGamePad.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnUseGamePad.Name" xml:space="preserve">
+    <value>btnUseGamePad</value>
+  </data>
+  <data name="&gt;&gt;btnUseGamePad.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnUseGamePad.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnUseGamePad.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnViewPacerLap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnViewPacerLap.Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnViewPacerLap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnViewPacerLap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 197</value>
+  </data>
+  <data name="btnViewPacerLap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 34</value>
+  </data>
+  <data name="btnViewPacerLap.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnViewPacerLap.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnViewPacerLap.Name" xml:space="preserve">
+    <value>btnViewPacerLap</value>
+  </data>
+  <data name="&gt;&gt;btnViewPacerLap.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnViewPacerLap.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnViewPacerLap.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnId.Caption" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="btnId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20pt, style=Italic</value>
+  </data>
+  <data name="btnId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 237</value>
+  </data>
+  <data name="btnId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 34</value>
+  </data>
+  <data name="btnId.SubText" xml:space="preserve">
+    <value>texte</value>
+  </data>
+  <data name="btnId.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="btnId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnId.Name" xml:space="preserve">
+    <value>btnId</value>
+  </data>
+  <data name="&gt;&gt;btnId.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnId.Parent" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;btnId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelbuttons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelbuttons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelbuttons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 237</value>
+  </data>
+  <data name="panelbuttons.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panelbuttons.Name" xml:space="preserve">
+    <value>panelbuttons</value>
+  </data>
+  <data name="&gt;&gt;panelbuttons.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelbuttons.Parent" xml:space="preserve">
+    <value>panelTeamParams</value>
+  </data>
+  <data name="&gt;&gt;panelbuttons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelTeamParams.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTeamParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 51</value>
+  </data>
+  <data name="panelTeamParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 237</value>
+  </data>
+  <data name="panelTeamParams.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;panelTeamParams.Name" xml:space="preserve">
+    <value>panelTeamParams</value>
+  </data>
+  <data name="&gt;&gt;panelTeamParams.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelTeamParams.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTeamParams.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelPilotes.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="panelPilotes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelPilotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 288</value>
+  </data>
+  <data name="panelPilotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 725</value>
+  </data>
+  <data name="panelPilotes.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panelPilotes.Name" xml:space="preserve">
+    <value>panelPilotes</value>
+  </data>
+  <data name="&gt;&gt;panelPilotes.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelPilotes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPilotes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>670, 1013</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ParamTeamPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.ESRMControl, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

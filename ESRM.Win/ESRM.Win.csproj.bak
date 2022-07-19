@@ -1,0 +1,3334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA25E628-AB8E-4DDE-99E1-7D49F0B308EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESRM.Win</RootNamespace>
+    <AssemblyName>ESRM.Win</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://esrm.fr/download/</InstallUrl>
+    <ProductName>ESRM</ProductName>
+    <PublisherName>ESRM</PublisherName>
+    <SuiteName>ESRM Beta</SuiteName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>3.0.0.2</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8AC63DCFB951026C05B881247CAB3B6908680F55</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ESRM.Win_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ESRM.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Extensions, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v16.1.Core, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.WindowsDX.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nancy, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nancy.1.4.3\lib\net40\Nancy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nancy.Hosting.Self, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nancy.Hosting.Self.1.4.1\lib\net40\Nancy.Hosting.Self.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Portable.Licensing">
+      <HintPath>..\packages\Portable.Licensing.1.1.0\lib\portable-net40+sl4+wp7+win8\Portable.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\SoundsParams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SoundsParams.Designer.cs">
+      <DependentUpon>SoundsParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvancedRaceParams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvancedRaceParams.Designer.cs">
+      <DependentUpon>AdvancedRaceParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HandsetCurvePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HandsetCurvePanel.Designer.cs">
+      <DependentUpon>HandsetCurvePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LapByLapPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LapByLapPanel.Designer.cs">
+      <DependentUpon>LapByLapPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonForTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonForTime.Designer.cs">
+      <DependentUpon>ESRMButtonForTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMGrid.Designer.cs">
+      <DependentUpon>ESRMGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMPanel.Designer.cs">
+      <DependentUpon>ESRMPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMControl.Designer.cs">
+      <DependentUpon>ESRMControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonForNumeric.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonForNumeric.Designer.cs">
+      <DependentUpon>ESRMButtonForNumeric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonSelect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButtonSelect.Designer.cs">
+      <DependentUpon>ESRMButtonSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ESRMButton.Designer.cs">
+      <DependentUpon>ESRMButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ScalablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ScalablePanel.Designer.cs">
+      <DependentUpon>ScalablePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdvancedDigitalParams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AdvancedDigitalParams.Designer.cs">
+      <DependentUpon>AdvancedDigitalParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TiresParamsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TiresParamsPanel.Designer.cs">
+      <DependentUpon>TiresParamsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeatherPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WeatherPanel.Designer.cs">
+      <DependentUpon>WeatherPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OLD\RaceColumnPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OLD\RaceColumnPanel.Designer.cs">
+      <DependentUpon>RaceColumnPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OLD\MonitoringTeamPanel1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OLD\MonitoringTeamPanel1.Designer.cs">
+      <DependentUpon>MonitoringTeamPanel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SmallParamTeamPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SmallParamTeamPanel.Designer.cs">
+      <DependentUpon>SmallParamTeamPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ParamTeamPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ParamTeamPanel.Designer.cs">
+      <DependentUpon>ParamTeamPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MonitoringTeamPanel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MonitoringTeamPanel2.Designer.cs">
+      <DependentUpon>MonitoringTeamPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimeAttackTeamPanelColumn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TimeAttackTeamPanelColumn.Designer.cs">
+      <DependentUpon>TimeAttackTeamPanelColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EsrmNancyModule.cs" />
+    <Compile Include="ESRMSoundPlayer.cs" />
+    <Compile Include="ESRMViewModel.cs" />
+    <Compile Include="FontManager.cs" />
+    <Compile Include="Fonts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Fonts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GacUtil.cs" />
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EndRace_PilotPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EndRace_PilotPanel.Designer.cs">
+      <DependentUpon>EndRace_PilotPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ScalableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseControls\ScalableControl.Designer.cs">
+      <DependentUpon>ScalableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OLD\RacePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OLD\RacePanel.Designer.cs">
+      <DependentUpon>RacePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OLD\TeamPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OLD\TeamPanel.Designer.cs">
+      <DependentUpon>TeamPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TeamPanelColumn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TeamPanelColumn.Designer.cs">
+      <DependentUpon>TeamPanelColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GamePadCurvePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GamePadCurvePanel.Designer.cs">
+      <DependentUpon>GamePadCurvePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\StartLightDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\StartLightDlg.Designer.cs">
+      <DependentUpon>StartLightDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\HandSetCalibrationDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\HandSetCalibrationDlg.Designer.cs">
+      <DependentUpon>HandSetCalibrationDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\DlgPacerLapInfos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\DlgPacerLapInfos.Designer.cs">
+      <DependentUpon>DlgPacerLapInfos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\BeforeStartRaceDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\BeforeStartRaceDlg.Designer.cs">
+      <DependentUpon>BeforeStartRaceDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\SecondRaceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\SecondRaceView.Designer.cs">
+      <DependentUpon>SecondRaceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\MonitoringDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\MonitoringDlg.Designer.cs">
+      <DependentUpon>MonitoringDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\LicenceDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\LicenceDlg.Designer.cs">
+      <DependentUpon>LicenceDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\RecordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\RecordsForm.Designer.cs">
+      <DependentUpon>RecordsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\CalibrationDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\CalibrationDlg.Designer.cs">
+      <DependentUpon>CalibrationDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\StatsPilotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\StatsPilotsForm.Designer.cs">
+      <DependentUpon>StatsPilotsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EndRacePage2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EndRacePage2.Designer.cs">
+      <DependentUpon>EndRacePage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PilotPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\PilotPage.Designer.cs">
+      <DependentUpon>PilotPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GaragePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\GaragePage.Designer.cs">
+      <DependentUpon>GaragePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IRacePage.cs" />
+    <Compile Include="RaceManager.cs" />
+    <Compile Include="Views\RPTeamsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RPTeamsPage.Designer.cs">
+      <DependentUpon>RPTeamsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\SelectCarDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\SelectCarDlg.Designer.cs">
+      <DependentUpon>SelectCarDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TimeAttackRaceParamsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TimeAttackRaceParamsPage.Designer.cs">
+      <DependentUpon>TimeAttackRaceParamsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DigitalParamsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\DigitalParamsPage.Designer.cs">
+      <DependentUpon>DigitalParamsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\SelectPilotDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\SelectPilotDlg.Designer.cs">
+      <DependentUpon>SelectPilotDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\TextBoxDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\TextBoxDlg.Designer.cs">
+      <DependentUpon>TextBoxDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\TimerDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\TimerDlg.Designer.cs">
+      <DependentUpon>TimerDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\BasePage.Designer.cs">
+      <DependentUpon>BasePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestPageSSD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TestPageSSD.Designer.cs">
+      <DependentUpon>TestPageSSD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LapCountPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\LapCountPage.Designer.cs">
+      <DependentUpon>LapCountPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmptyPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\EmptyPage.Designer.cs">
+      <DependentUpon>EmptyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainMenuPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\MainMenuPage.Designer.cs">
+      <DependentUpon>MainMenuPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Dialogs\FinishDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Dialogs\FinishDlg.Designer.cs">
+      <DependentUpon>FinishDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TracksPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TracksPage.Designer.cs">
+      <DependentUpon>TracksPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RaceParamsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RaceParamsPage.Designer.cs">
+      <DependentUpon>RaceParamsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\RacePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\RacePage.Designer.cs">
+      <DependentUpon>RacePage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\SoundsParams.en.resx">
+      <DependentUpon>SoundsParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SoundsParams.resx">
+      <DependentUpon>SoundsParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AdvancedRaceParams.en.resx">
+      <DependentUpon>AdvancedRaceParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AdvancedRaceParams.resx">
+      <DependentUpon>AdvancedRaceParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GamePadCurvePanel.en.resx">
+      <DependentUpon>GamePadCurvePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HandsetCurvePanel.en-US.resx">
+      <DependentUpon>HandsetCurvePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HandsetCurvePanel.en.resx">
+      <DependentUpon>HandsetCurvePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HandsetCurvePanel.resx">
+      <DependentUpon>HandsetCurvePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LapByLapPanel.en.resx">
+      <DependentUpon>LapByLapPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LapByLapPanel.resx">
+      <DependentUpon>LapByLapPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMButtonForTime.resx">
+      <DependentUpon>ESRMButtonForTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMPanel.resx">
+      <DependentUpon>ESRMPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMControl.resx">
+      <DependentUpon>ESRMControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMButtonForNumeric.resx">
+      <DependentUpon>ESRMButtonForNumeric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMButtonSelect.resx">
+      <DependentUpon>ESRMButtonSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ESRMButton.resx">
+      <DependentUpon>ESRMButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ScalablePanel.resx">
+      <DependentUpon>ScalablePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AdvancedDigitalParams.en.resx">
+      <DependentUpon>AdvancedDigitalParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AdvancedDigitalParams.resx">
+      <DependentUpon>AdvancedDigitalParams.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ParamTeamPanel.en.resx">
+      <DependentUpon>ParamTeamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TiresParamsPanel.en.resx">
+      <DependentUpon>TiresParamsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TiresParamsPanel.resx">
+      <DependentUpon>TiresParamsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeatherPanel.en.resx">
+      <DependentUpon>WeatherPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeatherPanel.resx">
+      <DependentUpon>WeatherPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MonitoringTeamPanel2.en.resx">
+      <DependentUpon>MonitoringTeamPanel2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OLD\RaceColumnPanel.resx">
+      <DependentUpon>RaceColumnPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OLD\MonitoringTeamPanel1.resx">
+      <DependentUpon>MonitoringTeamPanel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SmallParamTeamPanel.en.resx">
+      <DependentUpon>SmallParamTeamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SmallParamTeamPanel.resx">
+      <DependentUpon>SmallParamTeamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ParamTeamPanel.resx">
+      <DependentUpon>ParamTeamPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MonitoringTeamPanel2.resx">
+      <DependentUpon>MonitoringTeamPanel2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TimeAttackTeamPanelColumn.resx">
+      <DependentUpon>TimeAttackTeamPanelColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fonts.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Fonts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.fr-FR.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EndRace_PilotPanel.resx">
+      <DependentUpon>EndRace_PilotPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseControls\ScalableControl.resx">
+      <DependentUpon>ScalableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OLD\RacePanel.resx">
+      <DependentUpon>RacePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OLD\TeamPanel.resx">
+      <DependentUpon>TeamPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Controls\TeamPanelColumn.resx">
+      <DependentUpon>TeamPanelColumn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\StartLightDlg.en.resx">
+      <DependentUpon>StartLightDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\StartLightDlg.resx">
+      <DependentUpon>StartLightDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\BeforeStartRaceDlg.en.resx">
+      <DependentUpon>BeforeStartRaceDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GamePadCurvePanel.en-US.resx">
+      <DependentUpon>GamePadCurvePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GamePadCurvePanel.resx">
+      <DependentUpon>GamePadCurvePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\CalibrationDlg.en.resx">
+      <DependentUpon>CalibrationDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\HandSetCalibrationDlg.en-US.resx">
+      <DependentUpon>HandSetCalibrationDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\HandSetCalibrationDlg.en.resx">
+      <DependentUpon>HandSetCalibrationDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\HandSetCalibrationDlg.resx">
+      <DependentUpon>HandSetCalibrationDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\DlgPacerLapInfos.resx">
+      <DependentUpon>DlgPacerLapInfos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\BeforeStartRaceDlg.resx">
+      <DependentUpon>BeforeStartRaceDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\MonitoringDlg.en.resx">
+      <DependentUpon>MonitoringDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\RecordsForm.en.resx">
+      <DependentUpon>RecordsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SecondRaceView.en.resx">
+      <DependentUpon>SecondRaceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SecondRaceView.resx">
+      <DependentUpon>SecondRaceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\MonitoringDlg.resx">
+      <DependentUpon>MonitoringDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\LicenceDlg.resx">
+      <DependentUpon>LicenceDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\RecordsForm.en-US.resx">
+      <DependentUpon>RecordsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\RecordsForm.resx">
+      <DependentUpon>RecordsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SelectCarDlg.en.resx">
+      <DependentUpon>SelectCarDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SelectPilotDlg.en.resx">
+      <DependentUpon>SelectPilotDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\CalibrationDlg.en-US.resx">
+      <DependentUpon>CalibrationDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\CalibrationDlg.resx">
+      <DependentUpon>CalibrationDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\StatsPilotsForm.en-US.resx">
+      <DependentUpon>StatsPilotsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\StatsPilotsForm.en.resx">
+      <DependentUpon>StatsPilotsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\StatsPilotsForm.resx">
+      <DependentUpon>StatsPilotsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SelectPilotDlg.en-US.resx">
+      <DependentUpon>SelectPilotDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DigitalParamsPage.en.resx">
+      <DependentUpon>DigitalParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DigitalParamsPage.fr-FR.resx">
+      <DependentUpon>DigitalParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EndRacePage2.resx">
+      <DependentUpon>EndRacePage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GaragePage.en.resx">
+      <DependentUpon>GaragePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainMenuPage.en.resx">
+      <DependentUpon>MainMenuPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PilotPage.en.resx">
+      <DependentUpon>PilotPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PilotPage.resx">
+      <DependentUpon>PilotPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GaragePage.resx">
+      <DependentUpon>GaragePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LapCountPage.en-US.resx">
+      <DependentUpon>LapCountPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LapCountPage.fr-FR.resx">
+      <DependentUpon>LapCountPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RacePage.en.resx">
+      <DependentUpon>RacePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RaceParamsPage.en.resx">
+      <DependentUpon>RaceParamsPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SelectCarDlg.resx">
+      <DependentUpon>SelectCarDlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RPTeamsPage.en.resx">
+      <DependentUpon>RPTeamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RPTeamsPage.resx">
+      <DependentUpon>RPTeamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TimeAttackRaceParamsPage.en-US.resx">
+      <DependentUpon>TimeAttackRaceParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TimeAttackRaceParamsPage.resx">
+      <DependentUpon>TimeAttackRaceParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DigitalParamsPage.resx">
+      <DependentUpon>DigitalParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\SelectPilotDlg.resx">
+      <DependentUpon>SelectPilotDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\TextBoxDlg.resx">
+      <DependentUpon>TextBoxDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\TimerDlg.resx">
+      <DependentUpon>TimerDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BasePage.resx">
+      <DependentUpon>BasePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TestPageSSD.fr-FR.resx">
+      <DependentUpon>TestPageSSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TestPageSSD.resx">
+      <DependentUpon>TestPageSSD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LapCountPage.resx">
+      <DependentUpon>LapCountPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\EmptyPage.resx">
+      <DependentUpon>EmptyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainMenuPage.resx">
+      <DependentUpon>MainMenuPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Dialogs\FinishDlg.resx">
+      <DependentUpon>FinishDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TracksPage.resx">
+      <DependentUpon>TracksPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RaceParamsPage.resx">
+      <DependentUpon>RaceParamsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RacePage.resx">
+      <DependentUpon>RacePage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="ESRM.Win_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ESRM.Entities.ThrottleCurve.datasource" />
+    <None Include="Properties\DataSources\ESRM.Entities.TeamLap.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESRM.Entities\ESRM.Entities.csproj">
+      <Project>{7ae31e70-01c6-426a-a11e-d38276ac10ae}</Project>
+      <Name>ESRM.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.GamePadV2\ESRM.GamePadV2.csproj">
+      <Project>{172ee3a5-3456-4cb0-b8e2-5f6e76b4806a}</Project>
+      <Name>ESRM.GamePadV2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.GamePad\ESRM.GamePad.csproj">
+      <Project>{2a39f946-cc69-4082-a564-3400ef841e9d}</Project>
+      <Name>ESRM.GamePad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.HWInterfaces\ESRM.HWInterfaces.csproj">
+      <Project>{72f6d099-1c1b-40f7-bee2-fbb272d19d65}</Project>
+      <Name>ESRM.HWInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.SerialPort\ESRM.SerialPortLib.csproj">
+      <Project>{b3b5b2b8-1649-4776-8024-f5f10c14e791}</Project>
+      <Name>ESRM.SerialPortLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChangeLog.txt" />
+    <Content Include="Resources\carwheel.png" />
+    <Content Include="Resources\CGF Locust Resistance.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,KB2468871">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 et x64%29 et mise à jour pour .NET Framework 4 %28KB2468871%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black texture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endracewp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DD_Finish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DD_GreenFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DD_YellowFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Cars\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ESRM.ico" />
+    <Content Include="Images\Pilotes\Carricatures\agosti10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\alesi210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\alonso10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\amon210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\andret10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\andrue10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\arnoux10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\ascari10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\bandin10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\behra210 %282%29.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\behra210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\bellof10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\beltoi10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\bianch10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\bonnie10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\bourda10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\brabha10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\brabha14.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\brambi11.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\brooks10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\button11.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\campbe10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\caracc10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\cevert10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\clark210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\collin10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\courag10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\dhill210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\earnha10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\elford10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\fangio26.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\farina13.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\gendeb10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\ghill210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\ginthe10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\gurney10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\hakkin14.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\hamilt14.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\hawtho11.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\hulme210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\hunt210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\ickx210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\jaboui10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\jarier10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\jville10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\laffit10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\lauda210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\loeb210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\mansel12.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\mclare11.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\merzar10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\moss210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\nilsso10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\nrosbe10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\nuvola10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\pace211.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\pescar11.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\peters10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\petty210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\piquet12.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\pironi10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\prost210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\pryce210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\ragnot10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\raikko13.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\regal210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\regazz10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\reutem10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\RG %281%29.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\RG.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\rosber12.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\rossi210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\schuma17.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\senna210.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\stewar10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\tambay10.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\vettel13.jpg" />
+    <Content Include="Images\Pilotes\Carricatures\villen14.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\1.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\10.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\11.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\12.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\13.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\14.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\16.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\17.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\18.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\19.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\2.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\20.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\21.png" />
+    <Content Include="Images\Pilotes\Cartoons\22.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\23.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\24.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\25.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\26.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\3.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\4.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\5.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\6.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\7.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\8.jpg" />
+    <Content Include="Images\Pilotes\Cartoons\9.png" />
+    <Content Include="Images\Pilotes\Heroes\Agent Coulson-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Black Widow-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Bumblebee-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Captain America-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Giant Man-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Hawkeye-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Hulk-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Iron Man Mark I-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Iron Man Mark II-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Iron Man Mark IV-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Iron Man Mark VI-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Ironman-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Killzone-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Loki-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Master-Chief-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Nick Fury-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Predator-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Spiderman-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Starwars-Stormtrooper-icon %281%29.png" />
+    <Content Include="Images\Pilotes\Heroes\Starwars-Stormtrooper-icon.png" />
+    <Content Include="Images\Pilotes\Heroes\Thor-01.png" />
+    <Content Include="Images\Pilotes\Heroes\Venom-icon.png" />
+    <Content Include="Images\Pilotes\Tux\Angola.png" />
+    <Content Include="Images\Pilotes\Tux\Argentina.png" />
+    <Content Include="Images\Pilotes\Tux\Australia.png" />
+    <Content Include="Images\Pilotes\Tux\Brazil.png" />
+    <Content Include="Images\Pilotes\Tux\Costa Rica.png" />
+    <Content Include="Images\Pilotes\Tux\Croatia.png" />
+    <Content Include="Images\Pilotes\Tux\Czech Republic.png" />
+    <Content Include="Images\Pilotes\Tux\CoteIvoire.png" />
+    <Content Include="Images\Pilotes\Tux\Ecuador.png" />
+    <Content Include="Images\Pilotes\Tux\England.png" />
+    <Content Include="Images\Pilotes\Tux\France.png" />
+    <Content Include="Images\Pilotes\Tux\Germany.png" />
+    <Content Include="Images\Pilotes\Tux\Ghana.png" />
+    <Content Include="Images\Pilotes\Tux\Iran.png" />
+    <Content Include="Images\Pilotes\Tux\Italy.png" />
+    <Content Include="Images\Pilotes\Tux\Japan.png" />
+    <Content Include="Images\Pilotes\Tux\Korea Republic.png" />
+    <Content Include="Images\Pilotes\Tux\Mexico.png" />
+    <Content Include="Images\Pilotes\Tux\Netherlands.png" />
+    <Content Include="Images\Pilotes\Tux\Paraguay.png" />
+    <Content Include="Images\Pilotes\Tux\Poland.png" />
+    <Content Include="Images\Pilotes\Tux\Portugal.png" />
+    <Content Include="Images\Pilotes\Tux\Saudi Arabia.png" />
+    <Content Include="Images\Pilotes\Tux\Serbia and Montenegro.png" />
+    <Content Include="Images\Pilotes\Tux\Spain%28NoStripes%29.png" />
+    <Content Include="Images\Pilotes\Tux\Spain.png" />
+    <Content Include="Images\Pilotes\Tux\Sweden.png" />
+    <Content Include="Images\Pilotes\Tux\Switzerland.png" />
+    <Content Include="Images\Pilotes\Tux\Togo.png" />
+    <Content Include="Images\Pilotes\Tux\Trinidad and Tobago.png" />
+    <Content Include="Images\Pilotes\Tux\Tunisia.png" />
+    <Content Include="Images\Pilotes\Tux\Ukraine.png" />
+    <Content Include="Images\Pilotes\Tux\USA.png" />
+    <None Include="Resources\covered.png" />
+    <Content Include="Resources\DisabledLight.png" />
+    <None Include="Resources\Donate.png" />
+    <Content Include="Resources\EUROSTI.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\EUROSTIB.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\FireyeGF_3_Headline.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\gas.png" />
+    <Content Include="Resources\heart.png" />
+    <None Include="Resources\PayPal-Donate-Button-PNG-Images.png" />
+    <Content Include="Resources\radio stars.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\need-for-font.regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Warning.png" />
+    <None Include="Resources\Alert.png" />
+    <None Include="Resources\red_light.png" />
+    <None Include="Resources\Fuel.png" />
+    <None Include="Resources\Car.png" />
+    <None Include="Resources\media_playback_stop.png" />
+    <None Include="Resources\media_playback_pause.png" />
+    <None Include="Resources\media_playback_start.png" />
+    <None Include="Resources\media_playback_stop2.png" />
+    <None Include="Resources\media_playback_pause2.png" />
+    <None Include="Resources\media_playback_start2.png" />
+    <None Include="Resources\stop-button-black-md.png" />
+    <None Include="Resources\EngineIncident.bmp" />
+    <None Include="Resources\SuspensionIncident.png" />
+    <None Include="Resources\TiresIncident.png" />
+    <None Include="Resources\BrakeIncident.png" />
+    <None Include="Resources\EngineIncident.png" />
+    <None Include="Resources\PitStop2.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\repair.PNG" />
+    <None Include="Resources\NightClear.png" />
+    <None Include="Resources\NightRain1.png" />
+    <None Include="Resources\rain.png" />
+    <None Include="Resources\stormy.png" />
+    <None Include="Resources\StormyRain3t.png" />
+    <None Include="Resources\sunny.png" />
+    <None Include="Resources\SunnyAndRainRisk1.png" />
+    <None Include="Resources\SunnyAndRainRisk2.png" />
+    <None Include="Resources\SunnyAndRainRisk3.png" />
+    <None Include="Resources\SunnyCloudy1.png" />
+    <None Include="Resources\SunnyCloudy2.png" />
+    <None Include="Resources\thinning.png" />
+    <None Include="Resources\NightRain11.png" />
+    <None Include="Resources\NightRain111.png" />
+    <None Include="Resources\Hard.png" />
+    <None Include="Resources\Intermediate.png" />
+    <None Include="Resources\Medium.png" />
+    <None Include="Resources\Soft.png" />
+    <None Include="Resources\Wet.png" />
+    <None Include="Resources\NightClear1.png" />
+    <Content Include="Resources\sunny-12.jpg" />
+    <Content Include="Sounds\beep.wav" />
+    <Content Include="Sounds\Finish.wav" />
+    <Content Include="Sounds\Go.wav" />
+    <Content Include="Sounds\GreenFlag.wav" />
+    <Content Include="Sounds\HardRain.wav" />
+    <Content Include="Sounds\Incident.wav" />
+    <Content Include="Sounds\LapRecord.wav" />
+    <Content Include="Sounds\LightRain.wav" />
+    <Content Include="Sounds\MediumRain.wav" />
+    <Content Include="Sounds\Warning.wav" />
+    <Content Include="Sounds\Alert.wav" />
+    <Content Include="Sounds\PitIn.wav" />
+    <Content Include="Sounds\Relay.wav" />
+    <Content Include="Sounds\TA_ChangeLevel.wav" />
+    <Content Include="Sounds\TA_Negative.wav" />
+    <Content Include="Sounds\TA_Positive.wav" />
+    <Content Include="Sounds\YellowFlag.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.RichEdit.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Sparkline.v16.1.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGrid.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraTreeList.v16.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="en-US\ESRM.Entities.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="en-US\ESRM.Win.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="en\ESRM.Win.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="fr-FR\ESRM.Win.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\agosti10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\alesi210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\alonso10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\amon210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\andret10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\andrue10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\arnoux10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\ascari10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\bandin10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\behra210 %282%29.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\behra210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\bellof10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\beltoi10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\bianch10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\bonnie10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\bourda10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\brabha10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\brabha14.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\brambi11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\brooks10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\button11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\campbe10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\caracc10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\cevert10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\clark210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\collin10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\courag10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\dhill210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\earnha10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\elford10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\fangio26.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\farina13.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\gendeb10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\ghill210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\ginthe10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\gurney10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\hakkin14.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\hamilt14.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\hawtho11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\hulme210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\hunt210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\ickx210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\jaboui10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\jarier10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\jville10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\laffit10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\lauda210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\loeb210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\mansel12.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\mclare11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\merzar10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\moss210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\nilsso10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\nrosbe10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\nuvola10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\pace211.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\pescar11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\peters10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\petty210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\piquet12.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\pironi10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\prost210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\pryce210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\ragnot10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\raikko13.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\regal210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\regazz10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\reutem10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\RG %281%29.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\RG.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\rosber12.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\rossi210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\schuma17.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\senna210.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\stewar10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\tambay10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\vettel13.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Carricatures\villen14.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\1.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\10.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\11.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\12.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\13.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\14.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\16.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\17.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\18.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\19.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\2.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\20.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\21.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\22.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\23.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\24.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\25.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\26.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\3.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\4.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\5.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\6.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\7.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\8.jpg">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Cartoons\9.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Agent Coulson-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Black Widow-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Bumblebee-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Captain America-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Giant Man-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Hawkeye-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Hulk-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Iron Man Mark I-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Iron Man Mark II-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Iron Man Mark IV-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Iron Man Mark VI-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Ironman-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Killzone-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Loki-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Master-Chief-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Nick Fury-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Predator-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Spiderman-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Starwars-Stormtrooper-icon %281%29.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Starwars-Stormtrooper-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Thor-01.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Heroes\Venom-icon.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Angola.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Argentina.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Australia.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Brazil.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Costa Rica.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\CoteIvoire.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Croatia.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Czech Republic.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Ecuador.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\England.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\France.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Germany.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Ghana.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Iran.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Italy.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Japan.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Korea Republic.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Mexico.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Netherlands.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Paraguay.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Poland.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Portugal.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Saudi Arabia.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Serbia and Montenegro.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Spain%28NoStripes%29.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Spain.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Sweden.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Switzerland.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Togo.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Trinidad and Tobago.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Tunisia.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\Ukraine.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Images\Pilotes\Tux\USA.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Portable.Licensing">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Alert.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\beep.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Finish.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Go.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\GreenFlag.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\HardRain.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Incident.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\LapRecord.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\LightRain.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\MediumRain.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\PitIn.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Relay.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\TA_ChangeLevel.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\TA_Negative.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\TA_Positive.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\Warning.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Sounds\YellowFlag.wav">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.ApplicationModel.Activation.ActivatedEventsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.ApplicationModel.Calls.LockScreenCallContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.ApplicationModel.Resources.Management.ResourceIndexerContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.ApplicationModel.Wallet.WalletContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Devices.Custom.CustomDeviceContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Devices.Portable.PortableDeviceContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Devices.Printers.Extensions.ExtensionsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Devices.Scanners.ScannerDeviceContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Devices.Sms.LegacySmsApiContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Foundation.FoundationContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Foundation.UniversalApiContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Management.Workplace.WorkplaceSettingsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Media.Capture.CameraCaptureUIContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Media.Devices.CallControlContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Media.MediaControlContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Media.Playlists.PlaylistsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Networking.Connectivity.WwanContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.Security.ExchangeActiveSyncProvisioning.EasContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.System.Profile.ProfileSharedModeContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.System.UserProfile.UserProfileContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.UI.ApplicationSettings.ApplicationsSettingsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.UI.Core.AnimationMetrics.AnimationMetricsContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Windows.UI.Xaml.Hosting.HostingContract">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+﻿Ajouter le temps restant pour les courses d'endurance
+
+Ajouter synthèse vocale: 
+-  Temps au tour
+- low fuel, tires, health ? (une seule fois)
+- Best lap
+- personnal best lap
+
+Mise en place de socket pour la communication bi directionnelle

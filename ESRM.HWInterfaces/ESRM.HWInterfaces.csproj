@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72F6D099-1C1B-40F7-BEE2-FBB272D19D65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESRM.HWInterfaces</RootNamespace>
+    <AssemblyName>ESRM.HWInterfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryTools.cs" />
+    <None Include="GamePad\ESRMGamePad.cs" />
+    <None Include="GamePad\GamePadHandSet.cs" />
+    <None Include="Carrera\AbstractControlUnit.cs" />
+    <None Include="Carrera\BlackBox.cs" />
+    <None Include="Carrera\ControlUnit.cs" />
+    <None Include="Carrera\ControlUnitType.cs" />
+    <None Include="Carrera\FinishLinePassedEventArgs.cs" />
+    <None Include="Carrera\IPcUnit.cs" />
+    <None Include="Carrera\PcUnit.cs" />
+    <None Include="Carrera\SectorPassedEventArgs.cs" />
+    <Compile Include="HandSet.cs" />
+    <Compile Include="HandsetList.cs" />
+    <Compile Include="CarIdProgrammer.cs" />
+    <Compile Include="StartLights.cs" />
+    <Compile Include="SmartSensor\PitPro.cs" />
+    <Compile Include="SmartSensor\SmartSensorInterface.cs" />
+    <Compile Include="TimerForHandSet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GenericDigitalInterface.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\AuxPortCurrent.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\ButtonStatus.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\CarIDTrackUpdate.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\Checksum.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\DriverHandset.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\GameTime.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\HandsetTrackStatus.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\LEDStatus.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\OperationMode.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\PB6ReceivedPacket.cs" />
+    <Compile Include="Scalextric\Scalextric Packets\PB6SendPacket.cs" />
+    <Compile Include="Scalextric\SSDInterface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESRM.Entities2\ESRM.Entities2.csproj">
+      <Project>{d8a08827-078a-4416-8ee0-ab984611ceb3}</Project>
+      <Name>ESRM.Entities2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.GamePad\ESRM.GamePad.csproj">
+      <Project>{2a39f946-cc69-4082-a564-3400ef841e9d}</Project>
+      <Name>ESRM.GamePad</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
+    <ProjectReference Include="..\ESRM.SerialPort\ESRM.SerialPortLib.csproj">
+      <Project>{b3b5b2b8-1649-4776-8024-f5f10c14e791}</Project>
+      <Name>ESRM.SerialPortLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

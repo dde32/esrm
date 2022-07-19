@@ -1,0 +1,1790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnTiresConfig.Parent" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="edtSensorsCount.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbxComPorts.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnMaxDamages.Caption" xml:space="preserve">
+    <value>Dommages moteur (%)</value>
+  </data>
+  <data name="&gt;&gt;btnTCMethod.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelTires.Parent" xml:space="preserve">
+    <value>panelFiller</value>
+  </data>
+  <data name="btnMaxPenalityPower.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnAutoGreenFlag.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnTiresConfig.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAutoGreenFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 165</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v16.2" name="DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="edtPitPressDelay.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v16.2">
+    <value>Default</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="soundsParams1.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="btnConnectPitSS.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnPitStopMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnMaxDamages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnbrakeParams.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnMaxPitPower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnbrakeParams.Text" xml:space="preserve">
+    <value>Configuration des pneus</value>
+  </data>
+  <data name="&gt;&gt;btnSounds.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 3</value>
+  </data>
+  <data name="btnMaxPenalityPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="btnTiresConfig.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>scalablePanel1</value>
+  </data>
+  <data name="&gt;&gt;advancedParams.Name" xml:space="preserve">
+    <value>advancedParams</value>
+  </data>
+  <data name="&gt;&gt;btnConnectPitSS.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;soundsParams1.Parent" xml:space="preserve">
+    <value>panelFiller</value>
+  </data>
+  <data name="btnbrakeParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 14</value>
+  </data>
+  <data name="btnPitStopMethod.Caption" xml:space="preserve">
+    <value>Méthode PitStop</value>
+  </data>
+  <data name="&gt;&gt;btnUseStartLight.Name" xml:space="preserve">
+    <value>btnUseStartLight</value>
+  </data>
+  <data name="btnSounds.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUseStartLight.Text" xml:space="preserve">
+    <value>Start light ?</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="panelGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnNormalDamages.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="edtTCPressDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="cbxComPortsForPits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="scalablePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 574</value>
+  </data>
+  <data name="panelHeaderButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="btnTest.Text" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="btnTest.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;btnMaxYFPower.Name" xml:space="preserve">
+    <value>btnMaxYFPower</value>
+  </data>
+  <data name="btnMaxPenalityPower.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnMinorDamages.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="btnUsePitDetection.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnConnectPitSS.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnPenalityOnTC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="btnMaxPenalityPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 390</value>
+  </data>
+  <data name="btnConnectSL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;edtPitPressDelay.Name" xml:space="preserve">
+    <value>edtPitPressDelay</value>
+  </data>
+  <data name="cbxComPorts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="btnGlobalParams.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 14.249999pt, style=Italic</value>
+  </data>
+  <data name="btnMaxDamages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1238, 101</value>
+  </data>
+  <data name="&gt;&gt;btnSounds.Parent" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <data name="btnConnectPitSS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnTCDamages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMinorDamages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnPitStopMethod.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;panelGeneral.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;lblSensorsCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelHeaderButtons.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="cbxComPortsForSL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnConnectPitSS.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;btnMaxDamages.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtTCPressDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 116</value>
+  </data>
+  <data name="btnZeroGaz.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 110</value>
+  </data>
+  <data name="btnbrakeParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 35</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Name" xml:space="preserve">
+    <value>lblConnection</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblSensorsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cbxComPortsForPits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelTires.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 511</value>
+  </data>
+  <data name="btnMaxDamages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;btnAddLapOnPitStop.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cbxComPortsForPits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 66</value>
+  </data>
+  <data name="btnPenalityOnTC.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;btnBreakdownAction.Name" xml:space="preserve">
+    <value>btnBreakdownAction</value>
+  </data>
+  <data name="cbxComPorts.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="btnMaxPitPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 278</value>
+  </data>
+  <data name="btnTCDamages.Caption" xml:space="preserve">
+    <value>Dommages Track Call (%)</value>
+  </data>
+  <data name="&gt;&gt;btnMinorDamages.Name" xml:space="preserve">
+    <value>btnMinorDamages</value>
+  </data>
+  <data name="btnMaxPenalityPower.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;panelGeneral.Name" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;btnPenalityOnTC.Name" xml:space="preserve">
+    <value>btnPenalityOnTC</value>
+  </data>
+  <data name="btnbrakeParams.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panelHeader.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>100, 50, 50, 50</value>
+  </data>
+  <data name="panelHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="btnPenalityOnTC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 445</value>
+  </data>
+  <data name="&gt;&gt;edtTCPressDelay.Name" xml:space="preserve">
+    <value>edtTCPressDelay</value>
+  </data>
+  <data name="btnTCDamages.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1286, 63</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v16.2" name="DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="edtSensorsCount.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.2">
+    <value>Combo</value>
+  </data>
+  <data name="btnAdvancedParams.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnConnectPitSS.Name" xml:space="preserve">
+    <value>btnConnectPitSS</value>
+  </data>
+  <data name="btnNormalDamages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnZeroGaz.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20.25pt</value>
+  </data>
+  <data name="btnPitStopMethod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnBreakdownAction.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnMaxYFPower.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="soundsParams1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForSL.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnMaxPenalityPower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnMaxPitPower.Caption" xml:space="preserve">
+    <value>Stands Max power</value>
+  </data>
+  <data name="edtSensorsCount.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnTCMethod.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;btnZeroGaz.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnTestConnexion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 71</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBreakdownAction.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnConnectSL.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnTiresConfig.Name" xml:space="preserve">
+    <value>btnTiresConfig</value>
+  </data>
+  <data name="btnTestConnexion.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panelGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;edtTCPressDelay.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt, style=Italic</value>
+  </data>
+  <data name="lblConnection.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt, style=Italic</value>
+  </data>
+  <data name="panelTires.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;btnNormalDamages.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnOk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnAddLapOnPitStop.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnMinorDamages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 219</value>
+  </data>
+  <data name="panelGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 511</value>
+  </data>
+  <data name="btnPitStopMethod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="panelHeader.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnMinorDamages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 124</value>
+  </data>
+  <data name="btnTCDamages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAutoGreenFlag.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderButtons.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnPitStopMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 166</value>
+  </data>
+  <data name="btnPenalityOnTC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnTiresConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 14</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n1</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>YellowGreen</value>
+  </data>
+  <data name="panelHeader.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="advancedParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 511</value>
+  </data>
+  <data name="btnMaxDamages.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;btnUseStartLight.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblSensorsCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnMinorDamages.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="edtSensorsCount.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>YellowGreen</value>
+  </data>
+  <data name="&gt;&gt;btnConnectSL.Name" xml:space="preserve">
+    <value>btnConnectSL</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtTCPressDelay.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblConnection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="btnAutoGreenFlag.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnMaxPitPower.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ESRM.Win.Views.BasePage, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAdvancedParams.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="btnAutoGreenFlag.Caption" xml:space="preserve">
+    <value>Drap. vert automatique</value>
+  </data>
+  <data name="panelFiller.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 63</value>
+  </data>
+  <data name="&gt;&gt;btnAutoGreenFlag.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblSensorsCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnTCDamages.Name" xml:space="preserve">
+    <value>btnTCDamages</value>
+  </data>
+  <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1104, 14</value>
+  </data>
+  <data name="&gt;&gt;btnAdvancedParams.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnNormalDamages.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="btnMaxYFPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 334</value>
+  </data>
+  <data name="btnMaxYFPower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnUseStartLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 37</value>
+  </data>
+  <data name="btnAdvancedParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 35</value>
+  </data>
+  <data name="lblConnection.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;btnGlobalParams.Name" xml:space="preserve">
+    <value>btnGlobalParams</value>
+  </data>
+  <data name="btnNormalDamages.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMaxYFPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnMinorDamages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnAdvancedParams.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 14.249999pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;edtSensorsCount.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="btnMaxPitPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="cbxComPorts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 66</value>
+  </data>
+  <data name="&gt;&gt;btnAutoGreenFlag.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;scalablePanel1.Name" xml:space="preserve">
+    <value>scalablePanel1</value>
+  </data>
+  <data name="btnPitStopMethod.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnSounds.Text" xml:space="preserve">
+    <value>Sounds</value>
+  </data>
+  <data name="panelHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelGeneral.Parent" xml:space="preserve">
+    <value>panelFiller</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnNormalDamages.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnPenalityOnTC.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="btnGlobalParams.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="cbxComPortsForPits.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnConnectPitSS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 16</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnGlobalParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="btnTCMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPenalityPower.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForPits.Name" xml:space="preserve">
+    <value>cbxComPortsForPits</value>
+  </data>
+  <data name="panelHeaderButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;panelFiller.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddLapOnPitStop.Name" xml:space="preserve">
+    <value>btnAddLapOnPitStop</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForPits.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 35</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBreakdownAction.Caption" xml:space="preserve">
+    <value>Action sur panne</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v16.2">
+    <value>Numeric</value>
+  </data>
+  <data name="advancedParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnConnectSL.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;btnTestConnexion.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnUsePitDetection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 38</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="btnConnectPitSS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;edtSensorsCount.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnPenalityOnTC.Text" xml:space="preserve">
+    <value>Penalité sur TrackCall </value>
+  </data>
+  <data name="lblSensorsCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelFiller.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 511</value>
+  </data>
+  <data name="btnUsePitDetection.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="btnAddLapOnPitStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 222</value>
+  </data>
+  <data name="soundsParams1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="btnGlobalParams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 35</value>
+  </data>
+  <data name="btnGlobalParams.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConnectSL.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Délai (sec.)</value>
+  </data>
+  <data name="btnMaxPenalityPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="&gt;&gt;btnUsePitDetection.Name" xml:space="preserve">
+    <value>btnUsePitDetection</value>
+  </data>
+  <data name="&gt;&gt;edtTCPressDelay.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnTestConnexion.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelTires.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelFiller.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTestConnexion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSensorsCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 65</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.2">
+    <value>Combo</value>
+  </data>
+  <data name="btnBreakdownAction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAdvancedParams.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPenalityPower.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="edtSensorsCount.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnTiresConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnConnectSL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGlobalParams.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="panelFiller.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;btnPitStopMethod.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnbrakeParams.Name" xml:space="preserve">
+    <value>btnbrakeParams</value>
+  </data>
+  <data name="btnMaxYFPower.Caption" xml:space="preserve">
+    <value>Drap. jaune Max power</value>
+  </data>
+  <data name="btnTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnTCMethod.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scalablePanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnTestConnexion.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v16.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnTCDamages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="panelTires.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="edtPitPressDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;btnUsePitDetection.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="advancedParams.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="&gt;&gt;cbxComPorts.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnMaxYFPower.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnMaxDamages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnPitStopMethod.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="edtPitPressDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="panelHeaderButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnPitStopMethod.Name" xml:space="preserve">
+    <value>btnPitStopMethod</value>
+  </data>
+  <data name="&gt;&gt;edtSensorsCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnUseStartLight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Délai (sec.)</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnTCDamages.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;edtTCPressDelay.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnMaxPitPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnTCMethod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnMinorDamages.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="edtSensorsCount.Properties.NullValuePrompt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panelTires.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTCDamages.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForPits.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnMaxPenalityPower.Caption" xml:space="preserve">
+    <value>Pénalité Max power</value>
+  </data>
+  <data name="btnTCDamages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 390</value>
+  </data>
+  <data name="panelTires.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnConnectPitSS.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnZeroGaz.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v16.2">
+    <value>Default</value>
+  </data>
+  <data name="btnTCDamages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnTCMethod.Caption" xml:space="preserve">
+    <value>Méthode TrackCall</value>
+  </data>
+  <data name="&gt;&gt;advancedParams.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.AdvancedDigitalParams, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnMaxYFPower.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="edtSensorsCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>972, 57</value>
+  </data>
+  <data name="&gt;&gt;btnMinorDamages.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20.25pt</value>
+  </data>
+  <data name="edtTCPressDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnSounds.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;edtPitPressDelay.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SpinEdit, DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="scalablePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;edtPitPressDelay.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnConnectPitSS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnbrakeParams.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 14.249999pt</value>
+  </data>
+  <data name="&gt;&gt;btnNormalDamages.Name" xml:space="preserve">
+    <value>btnNormalDamages</value>
+  </data>
+  <data name="btnMaxPitPower.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="btnBreakdownAction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelHeader.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnConnectSL.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnMaxDamages.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="cbxComPortsForPits.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="btnAdvancedParams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 14</value>
+  </data>
+  <data name="btnSounds.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 14.249999pt, style=Italic</value>
+  </data>
+  <data name="lblSensorsCount.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="btnUsePitDetection.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="advancedParams.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="panelFiller.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelHeaderButtons.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPitStopMethod.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMaxYFPower.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="edtSensorsCount.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAutoGreenFlag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnUsePitDetection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>744, 16</value>
+  </data>
+  <data name="btnPenalityOnTC.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 180</value>
+  </data>
+  <data name="btnZeroGaz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="btnMaxYFPower.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnMaxYFPower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="panelHeaderButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 63</value>
+  </data>
+  <data name="cbxComPorts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnZeroGaz.Name" xml:space="preserve">
+    <value>btnZeroGaz</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.Name" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;btnAutoGreenFlag.Name" xml:space="preserve">
+    <value>btnAutoGreenFlag</value>
+  </data>
+  <data name="edtPitPressDelay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtPitPressDelay.EditValue" type="System.Decimal, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnbrakeParams.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v16.2">
+    <value>Numeric</value>
+  </data>
+  <data name="btnMinorDamages.Caption" xml:space="preserve">
+    <value>Dommages suspension (%)</value>
+  </data>
+  <data name="&gt;&gt;advancedParams.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelHeaderButtons.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="btnBreakdownAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 445</value>
+  </data>
+  <data name="btnNormalDamages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 275</value>
+  </data>
+  <data name="btnAddLapOnPitStop.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnTCMethod.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="btnTiresConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 35</value>
+  </data>
+  <data name="&gt;&gt;edtPitPressDelay.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="panelHeader.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;btnConnectSL.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnUseStartLight.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelFiller.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;edtSensorsCount.Name" xml:space="preserve">
+    <value>edtSensorsCount</value>
+  </data>
+  <data name="btnConnectPitSS.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Symbol, 10pt</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;panelHeaderButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;btnZeroGaz.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAddLapOnPitStop.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panelHeaderButtons.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPitPower.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnGlobalParams.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnGlobalParams.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="soundsParams1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 511</value>
+  </data>
+  <data name="btnBreakdownAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="btnUsePitDetection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSounds.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="btnTCMethod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 36pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForSL.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnTestConnexion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="btnNormalDamages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="&gt;&gt;lblConnection.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 20.25pt</value>
+  </data>
+  <data name="btnUseStartLight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 8</value>
+  </data>
+  <data name="btnGlobalParams.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTCMethod.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnTestConnexion.Name" xml:space="preserve">
+    <value>btnTestConnexion</value>
+  </data>
+  <data name="panelHeaderButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Parent" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 639</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v16.2">
+    <value>Combo</value>
+  </data>
+  <data name="btnUseStartLight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;btnUseStartLight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAddLapOnPitStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnZeroGaz.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSounds.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="soundsParams1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnConnectSL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUseStartLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 17</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForSL.Name" xml:space="preserve">
+    <value>cbxComPortsForSL</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DigitalParamsPage</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnZeroGaz.Caption" xml:space="preserve">
+    <value>Seuil gaz à 0</value>
+  </data>
+  <data name="btnPenalityOnTC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 50</value>
+  </data>
+  <data name="btnAddLapOnPitStop.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="edtSensorsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 38</value>
+  </data>
+  <data name="btnMaxPitPower.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAdvancedParams.Text" xml:space="preserve">
+    <value>Avancés</value>
+  </data>
+  <data name="panelGeneral.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnAddLapOnPitStop.Caption" xml:space="preserve">
+    <value>Add lap on Pit Stop</value>
+  </data>
+  <data name="btnZeroGaz.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;btnPenalityOnTC.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPenalityPower.Name" xml:space="preserve">
+    <value>btnMaxPenalityPower</value>
+  </data>
+  <data name="&gt;&gt;soundsParams1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderButtons.Name" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <data name="edtSensorsCount.Properties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnTestConnexion.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbxComPorts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbxComPortsForSL.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1238, 48</value>
+  </data>
+  <data name="edtSensorsCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnZeroGaz.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnTestConnexion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14.25pt, style=Italic</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPenalityPower.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="btnUsePitDetection.Caption" xml:space="preserve">
+    <value>PitStop detection</value>
+  </data>
+  <data name="&gt;&gt;lblSensorsCount.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnMaxYFPower.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnTestConnexion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConnectSL.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="btnOk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="&gt;&gt;panelFiller.Name" xml:space="preserve">
+    <value>panelFiller</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnAdvancedParams.Name" xml:space="preserve">
+    <value>btnAdvancedParams</value>
+  </data>
+  <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderButtons.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAddLapOnPitStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAutoGreenFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;scalablePanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panelHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;panelTires.Name" xml:space="preserve">
+    <value>panelTires</value>
+  </data>
+  <data name="panelTires.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTCDamages.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="&gt;&gt;cbxComPortsForSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSounds.Name" xml:space="preserve">
+    <value>btnSounds</value>
+  </data>
+  <data name="lblSensorsCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt, style=Italic</value>
+  </data>
+  <data name="btnTestConnexion.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="scalablePanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lblConnection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 24</value>
+  </data>
+  <data name="btnTiresConfig.Text" xml:space="preserve">
+    <value>Pneus</value>
+  </data>
+  <data name="&gt;&gt;lblSensorsCount.Name" xml:space="preserve">
+    <value>lblSensorsCount</value>
+  </data>
+  <data name="&gt;&gt;btnMaxDamages.Name" xml:space="preserve">
+    <value>btnMaxDamages</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPitPower.Parent" xml:space="preserve">
+    <value>panelGeneral</value>
+  </data>
+  <data name="btnAddLapOnPitStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>YellowGreen</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPitPower.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBreakdownAction.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnMaxDamages.SubText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConnectSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 70</value>
+  </data>
+  <data name="&gt;&gt;btnZeroGaz.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnBreakdownAction.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMaxPitPower.Name" xml:space="preserve">
+    <value>btnMaxPitPower</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt, style=Italic</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Name" xml:space="preserve">
+    <value>btnTest</value>
+  </data>
+  <data name="lblSensorsCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnAdvancedParams.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scalablePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 65</value>
+  </data>
+  <data name="&gt;&gt;btnbrakeParams.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbxComPortsForSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 66</value>
+  </data>
+  <data name="lblConnection.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnUsePitDetection.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.NullValuePromptShowForEmptyValue" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;scalablePanel1.Type" xml:space="preserve">
+    <value>ESRM.Win.ScalablePanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbxComPortsForSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="edtTCPressDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnNormalDamages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n1</value>
+  </data>
+  <data name="btnAutoGreenFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 50</value>
+  </data>
+  <data name="&gt;&gt;btnPenalityOnTC.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="btnTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 35</value>
+  </data>
+  <data name="panelHeaderButtons.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>100, 50, 50, 50</value>
+  </data>
+  <data name="&gt;&gt;btnTiresConfig.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="advancedParams.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnTCMethod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 110</value>
+  </data>
+  <data name="btnUseStartLight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;btnTCMethod.Name" xml:space="preserve">
+    <value>btnTCMethod</value>
+  </data>
+  <data name="&gt;&gt;scalablePanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnBreakdownAction.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;btnUsePitDetection.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n1</value>
+  </data>
+  <data name="edtSensorsCount.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;advancedParams.Parent" xml:space="preserve">
+    <value>panelFiller</value>
+  </data>
+  <data name="edtPitPressDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 172</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnConnectSL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 17</value>
+  </data>
+  <data name="btnTCDamages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v16.2">
+    <value>Numeric</value>
+  </data>
+  <data name="lblConnection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNormalDamages.Caption" xml:space="preserve">
+    <value>Dommages freins (%)</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="btnUseStartLight.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="btnPenalityOnTC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;soundsParams1.Name" xml:space="preserve">
+    <value>soundsParams1</value>
+  </data>
+  <data name="btnMaxDamages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 332</value>
+  </data>
+  <data name="edtSensorsCount.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnMinorDamages.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="btnConnectPitSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 71</value>
+  </data>
+  <data name="&gt;&gt;btnNormalDamages.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonForNumeric, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelTires.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.TiresParamsPanel, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="edtTCPressDelay.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="edtPitPressDelay.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="lblSensorsCount.Text" xml:space="preserve">
+    <value>Sensors </value>
+  </data>
+  <data name="&gt;&gt;btnMaxDamages.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnSounds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 14</value>
+  </data>
+  <data name="&gt;&gt;btnGlobalParams.Parent" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <data name="lblConnection.Text" xml:space="preserve">
+    <value>PB C7042</value>
+  </data>
+  <data name="btnTiresConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Radio Stars, 14.249999pt, style=Italic</value>
+  </data>
+  <data name="lblConnection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAdvancedParams.Parent" xml:space="preserve">
+    <value>panelHeaderButtons</value>
+  </data>
+  <data name="btnMinorDamages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;soundsParams1.Type" xml:space="preserve">
+    <value>ESRM.Win.Panels.SoundsParams, ESRM.Win, Version=3.0.20.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbxComPorts.Name" xml:space="preserve">
+    <value>cbxComPorts</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

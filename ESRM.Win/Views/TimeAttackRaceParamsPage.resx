@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnTrackSelect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnTrackSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnTrackSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnTrackSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnTrackSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTrackSelect.Name" xml:space="preserve">
+    <value>btnTrackSelect</value>
+  </data>
+  <data name="&gt;&gt;btnTrackSelect.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTrackSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTrackSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGoRacing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnGoRacing.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGoRacing.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnGoRacing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 533</value>
+  </data>
+  <data name="btnGoRacing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 86</value>
+  </data>
+  <data name="btnGoRacing.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnGoRacing.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="&gt;&gt;btnGoRacing.Name" xml:space="preserve">
+    <value>btnGoRacing</value>
+  </data>
+  <data name="&gt;&gt;btnGoRacing.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnGoRacing.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnGoRacing.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnTeams.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTeams.Caption" xml:space="preserve">
+    <value>EQUIPES</value>
+  </data>
+  <data name="btnTeams.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnTeams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 104</value>
+  </data>
+  <data name="btnTeams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 65</value>
+  </data>
+  <data name="btnTeams.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnTeams.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnTeams.Name" xml:space="preserve">
+    <value>btnTeams</value>
+  </data>
+  <data name="&gt;&gt;btnTeams.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTeams.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnTeams.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnPilotPerTeams.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnPilotPerTeams.Caption" xml:space="preserve">
+    <value>PILOTES PAR EQUIPE</value>
+  </data>
+  <data name="btnPilotPerTeams.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnPilotPerTeams.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="btnPilotPerTeams.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 65</value>
+  </data>
+  <data name="btnPilotPerTeams.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnPilotPerTeams.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnPilotPerTeams.Name" xml:space="preserve">
+    <value>btnPilotPerTeams</value>
+  </data>
+  <data name="&gt;&gt;btnPilotPerTeams.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPilotPerTeams.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnPilotPerTeams.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 345</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 43</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Bonus maximum</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBonusPlus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnBonusPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBonusPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="btnBonusPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 424</value>
+  </data>
+  <data name="btnBonusPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 65</value>
+  </data>
+  <data name="btnBonusPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnBonusPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btnBonusPlus.Name" xml:space="preserve">
+    <value>btnBonusPlus</value>
+  </data>
+  <data name="&gt;&gt;btnBonusPlus.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBonusPlus.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnBonusPlus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBonusMoins.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnBonusMoins.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBonusMoins.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="btnBonusMoins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 424</value>
+  </data>
+  <data name="btnBonusMoins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 65</value>
+  </data>
+  <data name="btnBonusMoins.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnBonusMoins.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnBonusMoins.Name" xml:space="preserve">
+    <value>btnBonusMoins</value>
+  </data>
+  <data name="&gt;&gt;btnBonusMoins.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnBonusMoins.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnBonusMoins.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="edtBonus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtBonus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="edtBonus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 424</value>
+  </data>
+  <data name="edtBonus.Mask" xml:space="preserve">
+    <value>00:000</value>
+  </data>
+  <data name="edtBonus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="edtBonus.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="edtBonus.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;edtBonus.Name" xml:space="preserve">
+    <value>edtBonus</value>
+  </data>
+  <data name="&gt;&gt;edtBonus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;edtBonus.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;edtBonus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 180</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 43</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Temps cible</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnTargetPlus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTargetPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnTargetPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="btnTargetPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 253</value>
+  </data>
+  <data name="btnTargetPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 65</value>
+  </data>
+  <data name="btnTargetPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnTargetPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;btnTargetPlus.Name" xml:space="preserve">
+    <value>btnTargetPlus</value>
+  </data>
+  <data name="&gt;&gt;btnTargetPlus.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTargetPlus.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnTargetPlus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnTargetMoins.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTargetMoins.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnTargetMoins.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="btnTargetMoins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 253</value>
+  </data>
+  <data name="btnTargetMoins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 65</value>
+  </data>
+  <data name="btnTargetMoins.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnTargetMoins.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;btnTargetMoins.Name" xml:space="preserve">
+    <value>btnTargetMoins</value>
+  </data>
+  <data name="&gt;&gt;btnTargetMoins.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButton, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTargetMoins.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnTargetMoins.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="edtLapTarget.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="edtLapTarget.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt</value>
+  </data>
+  <data name="edtLapTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 253</value>
+  </data>
+  <data name="edtLapTarget.Mask" xml:space="preserve">
+    <value>00:000</value>
+  </data>
+  <data name="edtLapTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
+  <data name="edtLapTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="edtLapTarget.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;edtLapTarget.Name" xml:space="preserve">
+    <value>edtLapTarget</value>
+  </data>
+  <data name="&gt;&gt;edtLapTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;edtLapTarget.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;edtLapTarget.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnTrack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnTrack.Caption" xml:space="preserve">
+    <value>PISTE</value>
+  </data>
+  <data name="btnTrack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 26pt, style=Italic</value>
+  </data>
+  <data name="btnTrack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="btnTrack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 65</value>
+  </data>
+  <data name="btnTrack.SubText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnTrack.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTrack.Name" xml:space="preserve">
+    <value>btnTrack</value>
+  </data>
+  <data name="&gt;&gt;btnTrack.Type" xml:space="preserve">
+    <value>ESRM.Win.ESRMButtonSelect, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTrack.Parent" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;btnTrack.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelPrincipal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>781, 656</value>
+  </data>
+  <data name="panelPrincipal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Name" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>781, 656</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TimeAttackRaceParamsPage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>ESRM.Win.Views.BasePage, ESRM.Win, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

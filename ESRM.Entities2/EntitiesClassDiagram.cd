@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ESRM.Entities.TeamInRace">
+    <Position X="6.75" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QEQGMAQASCfARRRhGEgQnQ6YloTQEkAJAskUREiEZN0=</HashCode>
+      <FileName>TeamInRace.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Car" />
+      <Property Name="CurrentPilot" />
+      <Property Name="Pilot1" />
+      <Property Name="Pilot2" />
+      <Property Name="Pilot3" />
+      <Property Name="Statisitics" />
+      <Property Name="Laps" />
+      <Property Name="Race" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESRM.Entities.TeamStatistics">
+    <Position X="11.75" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AARAAAgQSAAADAAgAAAACAABEAAAAAABAAAQoABEQAM=</HashCode>
+      <FileName>TeamStatistics.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StatsByPilot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ESRM.Entities.PilotStatistics">
+    <Position X="18" Y="14.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAgQAAAADBQAAAAACAIBAIAAAAAAAAAQIAAEAAI=</HashCode>
+      <FileName>TeamStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Tires">
+    <Position X="14.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAQAgAAAAABAEIAAAAgAAAAAIARAJAAAAEAAAQA=</HashCode>
+      <FileName>Tires.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Race">
+    <Position X="3" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAji1GcAPkCAEAMACaAXCowINFAgMZJMIYfbUosAAg=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RaceParams" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ESRM.Entities.Pilot">
+    <Position X="11.5" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAQAAQgBAQAAAEAIBAAAAAAAAAACAA=</HashCode>
+      <FileName>Pilot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Lap">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.HandSetThrotthleInfo">
+    <Position X="16.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAAAA=</HashCode>
+      <FileName>HandSetThrottleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Car">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBAAQAEQABAxAAAAAIBIAAAQAAAAACAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tires" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;">
+    <Position X="14.75" Y="14.5" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Struct>
+      <Class Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;.KeyCollection" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;.ValueCollection" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESRM.Entities.RaceParameters">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AFAAGEQBAEgBhEUAACGACpFARCQACIOEAEADgAfRCAY=</HashCode>
+      <FileName>RaceParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

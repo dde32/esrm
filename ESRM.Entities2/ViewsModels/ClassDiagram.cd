@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ESRM.Entities.Car">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAQAEQgAAwAAAEAIBIAAAAAAAAACAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Pilot">
+    <Position X="0.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAQgAAQAAAEAIBAAAAAAAAAACAA=</HashCode>
+      <FileName>Pilot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Race">
+    <Position X="8" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQAji0GeAPkCAEAEACaAXCowINFAgMJJMIYfbUosAAg=</HashCode>
+      <FileName>Race.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.RaceParameters">
+    <Position X="12.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AFAAGFABAEgBhEUAACCAAoBARCAACICFAEADgATRCAY=</HashCode>
+      <FileName>RaceParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.TeamInRace">
+    <Position X="4.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QEQGMAQASCVARRRhGEAQHYqYhoRQEkAJAMEERACEJMk=</HashCode>
+      <FileName>TeamInRace.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ESRM.Entities.Track">
+    <Position X="0.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Track.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Lap">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.GPRace">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>GPRace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Team">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAGAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.Record">
+    <Position X="9.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Record.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.TimeAttackRace" Collapsed="true">
+    <Position X="14.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAiCEgMAAg=</HashCode>
+      <FileName>TimeAttackRace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.PracticeRace" Collapsed="true">
+    <Position X="14.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACCEgMAAg=</HashCode>
+      <FileName>PracticeRace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ESRM.Entities.EnduranceRace" Collapsed="true">
+    <Position X="14.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACAEgMAAg=</HashCode>
+      <FileName>EnduranceRace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
